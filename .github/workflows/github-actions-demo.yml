@@ -1,8 +1,24 @@
-- name: CuteBOT
-  if: steps.check_for_atul.outputs.atul_found == 'true'
-  run: |
-    COMMENT="Heyyyy, are you free this evening?"
-    echo "$COMMENT"
-    GITHUB_TOKEN=$GITHUB_TOKEN gh pr comment ${{ github.event.number }} --body "$COMMENT"
-  env:
-    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+name: CuteBOT
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check for Atul
+        id: check_for_atul
+        run: echo "::set-output name=atul_found::true"
+
+      - name: Comment on PR
+        if: steps.check_for_atul.outputs.atul_found == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          COMMENT="Heyyyy, are you free this evening?"
+          echo "$COMMENT"
+          GITHUB_TOKEN=$GITHUB_TOKEN gh pr comment ${{ github.event.number }} --body "$COMMENT"
