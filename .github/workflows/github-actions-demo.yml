@@ -14,6 +14,9 @@ jobs:
         id: check_for_atul
         run: echo "::set-output name=atul_found::true"
 
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
       - name: Comment on PR
         if: steps.check_for_atul.outputs.atul_found == 'true'
         env:
