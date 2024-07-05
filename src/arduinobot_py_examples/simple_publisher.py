@@ -4,7 +4,7 @@ from std_msgs.msg import String
 
 class SimplePublisher(Node):
     def __init__(self):
-        super().__init__('simple_publisher')
+        super().__init__('simple_publisher') 
         self.publisher_ = self.create_publisher(String, 'chatter', 10)
         self.counter = 0
         self.frequency = 1.0
