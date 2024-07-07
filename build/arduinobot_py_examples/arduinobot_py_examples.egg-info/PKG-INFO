@@ -1,11 +1,11 @@
 Metadata-Version: 2.1
 Name: arduinobot-py-examples
 Version: 0.0.0
-Summary: TODO: Package description
+Summary: ROS 2 Code Examples
 Home-page: UNKNOWN
-Maintainer: atul
-Maintainer-email: atul@todo.todo
-License: TODO: License declaration
+Maintainer: user
+Maintainer-email: antonio.brandi@outlook.it
+License: Apache 2.0
 Platform: UNKNOWN
 
 UNKNOWN

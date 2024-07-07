@@ -1,0 +1,30 @@
+[1.091s] Invoking command in '/home/atul/arduinobot_ws/src': PYTHONPATH=/home/atul/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/arduinobot_py_examples build --build-base /home/atul/arduinobot_ws/build/arduinobot_py_examples/build install --record /home/atul/arduinobot_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data
+[1.381s] running egg_info
+[1.382s] writing ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/PKG-INFO
+[1.392s] writing dependency_links to ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/dependency_links.txt
+[1.392s] writing entry points to ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/entry_points.txt
+[1.392s] writing requirements to ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/requires.txt
+[1.392s] writing top-level names to ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt
+[1.395s] reading manifest file '../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[1.397s] writing manifest file '../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[1.397s] running build
+[1.398s] running build_py
+[1.398s] copying arduinobot_py_examples/__init__.py -> /home/atul/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.399s] copying arduinobot_py_examples/simple_publisher.py -> /home/atul/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.400s] running install
+[1.400s] running install_lib
+[1.402s] copying /home/atul/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/__init__.py -> /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[1.403s] copying /home/atul/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_publisher.py -> /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[1.405s] byte-compiling /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/__init__.py to __init__.cpython-310.pyc
+[1.407s] byte-compiling /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_publisher.py to simple_publisher.cpython-310.pyc
+[1.408s] running install_data
+[1.408s] copying resource/arduinobot_py_examples -> /home/atul/arduinobot_ws/install/arduinobot_py_examples/share/ament_index/resource_index/packages
+[1.409s] copying package.xml -> /home/atul/arduinobot_ws/install/arduinobot_py_examples/share/arduinobot_py_examples
+[1.409s] running install_egg_info
+[1.412s] removing '/home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples-0.0.0-py3.10.egg-info' (and everything under it)
+[1.418s] Copying ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info to /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples-0.0.0-py3.10.egg-info
+[1.421s] running install_scripts
+[1.452s] Installing simple_publisher script to /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.452s] Installing simple_subscriber script to /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.453s] writing list of installed files to '/home/atul/arduinobot_ws/build/arduinobot_py_examples/install.log'
+[1.485s] Invoked command in '/home/atul/arduinobot_ws/src' returned '0': PYTHONPATH=/home/atul/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/arduinobot_py_examples build --build-base /home/atul/arduinobot_ws/build/arduinobot_py_examples/build install --record /home/atul/arduinobot_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data
