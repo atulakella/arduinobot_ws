@@ -3,28 +3,21 @@ from rclpy.node import Node
 from std_msgs.msg import String
 
 
-class SimplePublisher(Node):
+class SimpleSubscriber(Node):
 
     def __init__(self):
-        super().__init__("simple_publisher")
-        self.pub_ = self.create_publisher(String, "chatter", 10)
-        self.counter_ = 0
-        self.frequency_ = 1.0
-        self.get_logger().info("Publishing at %d Hz" % self.frequency_)
-        
-        self.timer_ = self.create_timer(self.frequency_, self.timerCallback)
+        super().__init__("simple_subscriber")
+        self.sub_ = self.create_subscription(String, "chatter", self.msgCallback, 10)
+        self.sub_
 
-    def timerCallback(self):
-        msg = String()
-        msg.data = "Hello ROS 2 - counter: %d" % self.counter_
-        self.pub_.publish(msg)
-        self.counter_ += 1
+    def msgCallback(self, msg):
+        self.get_logger().info("I heard: %s" % msg.data)
 
 
 def main():
     rclpy.init()
 
-    simple_publisher = SimplePublisher()
+    simple_publisher = SimpleSubscriber()
     rclpy.spin(simple_publisher)
     
     simple_publisher.destroy_node()
