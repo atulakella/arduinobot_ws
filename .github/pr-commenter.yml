@@ -1,12 +1,17 @@
-name: "PR Commenter"
-on:
-  - pull_request_target
+comment:
+  on-update: recreate
+  header: |
+    Thank you for contributing to this repository :tada:.
 
-jobs:
-  pr-comment:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: exercism/pr-commenter-action@v1.5.1
-        with:
-          github-token: "${{ github.token }}"
-          config-file: ".github/pr-commenter.yml"
+  footer: |
+    ---
+    Automated comment created by [PR Commenter](https://github.com/exercism/pr-commenter-action) :robot:.
+
+  snippets:
+    - id: any-markdown-file-changed
+      files:
+        - '*.md'
+        - '**/*.md'
+      body: |
+        It looks like you're changing a Markdown file.
+        Make sure your changes follow our [language guidelines](some-link) when writing documentation.
