@@ -1,24 +1,12 @@
-name: Test Bot
+name: "PR Commenter"
 on:
-  pull_request:
-    types:
-      - opened
+  - pull_request_target
 
 jobs:
-  comment_hello:
+  pr-comment:
     runs-on: ubuntu-latest
     steps:
-      - name: Comment Hello
-        uses: actions/github-script@v4
+      - uses: exercism/pr-commenter-action@v1.5.1
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const { owner, repo } = context.repo;
-            const { number } = context.payload.pull_request;
-            const octokit = github.getOctokit(process.env.GITHUB_TOKEN);
-            await octokit.issues.createComment({
-              owner,
-              repo,
-              issue_number: number,
-              body: 'Hello'
-            });
+          github-token: "${{ github.token }}"
+          config-file: ".github/pr-commenter.yml"
