@@ -22,3 +22,7 @@ jobs:
               issue_number: number,
               body: 'Hello'
             });
+on:
+  pull_request:
+    types:
+      - opened
