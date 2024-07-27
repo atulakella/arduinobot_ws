@@ -1,7 +1,7 @@
 from setuptools import setup
 
 package_name = 'arduinobot_py_examples'
-
+ 
 setup(
     name=package_name,
     version='0.0.0',
