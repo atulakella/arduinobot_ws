@@ -1,0 +1,15 @@
+/home/atul/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/package_run_dependencies/arduinobot_description
+/home/atul/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/parent_prefix_path/arduinobot_description
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.sh
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.dsv
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.sh
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.dsv
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.bash
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.sh
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.zsh
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.dsv
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.dsv
+/home/atul/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/packages/arduinobot_description
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig.cmake
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig-version.cmake
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.xml
