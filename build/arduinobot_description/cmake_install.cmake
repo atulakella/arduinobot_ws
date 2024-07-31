@@ -43,6 +43,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_description" TYPE DIRECTORY FILES
+    "/home/atul/arduinobot_ws/src/arduinobot_description/urdf"
+    "/home/atul/arduinobot_ws/src/arduinobot_description/meshes"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/atul/arduinobot_ws/build/arduinobot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/arduinobot_description")
 endif()
 

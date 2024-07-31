@@ -1,3 +1,17 @@
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot.urdf.xacro
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/link.STL
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/round_plate.STL
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/basement.STL
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/plate.STL
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/forward_drive_arm.STL
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/triangular_link.STL
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/claw_support.STL
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/base_plate.STL
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/vertical_drive_arm.STL
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/right_finger.STL
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/left_finger.STL
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/servo_plate.STL
 /home/atul/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/package_run_dependencies/arduinobot_description
 /home/atul/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/parent_prefix_path/arduinobot_description
 /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.sh
