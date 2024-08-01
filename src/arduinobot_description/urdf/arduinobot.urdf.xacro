@@ -98,7 +98,7 @@
                 <mesh filename="package://arduinobot_description/meshes/claw_support.STL" scale="0.01 0.01 0.01"/>
             </geometry>
         </collision>
-    </link>
+    </link> 
 
     <link name="gripper_right">
         <xacro:default_inertial mass="0.01"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="arduinobot">
     
-    <!-- Useful XACRO Variables (Properties) -->
+
     <xacro:property name="PI" value="3.14159265359" />
     <xacro:property name="effort" value="30.0" />
     <xacro:property name="velocity" value="10.0" />
@@ -98,7 +98,7 @@
                 <mesh filename="package://arduinobot_description/meshes/claw_support.STL" scale="0.01 0.01 0.01"/>
             </geometry>
         </collision>
-    </link>
+    </link> 
 
     <link name="gripper_right">
         <xacro:default_inertial mass="0.01"/>
