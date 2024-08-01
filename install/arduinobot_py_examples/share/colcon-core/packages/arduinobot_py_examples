@@ -1,1 +1,1 @@
-arduinobot_msgs:rclpy:std_msgs
+arduinobot_msgs:rcl_interfaces:rclpy:std_msgs

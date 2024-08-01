@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             'simple_publisher = arduinobot_py_examples.simple_publisher:main',
             'simple_subscriber = arduinobot_py_examples.simple_subscriber:main',
+            'simple_parameter = arduinobot_py_examples.simple_parameter:main',
         ],
     },
 )
