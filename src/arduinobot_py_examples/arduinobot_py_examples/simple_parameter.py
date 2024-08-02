@@ -9,7 +9,7 @@ class SimpleParameter(Node):
         self.declare_parameter('lol_parameter', 28)
         self.declare_parameter('lol_string_parameter', "Lololol")
         lol_parameter = self.get_parameter('lol_parameter').value
-        self.get_logger().info('my_parameter: %s' % lol_parameter)
+        self.get_logger().info('lol_parameter: %s' % lol_parameter)
 
         self.add_on_set_parameters_callback(self.parameterrrrCallBack)
 
