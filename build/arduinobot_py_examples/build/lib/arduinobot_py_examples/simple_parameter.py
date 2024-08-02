@@ -1,7 +1,7 @@
-import rclpy 
-from rclpy.node import Node
-from rcl_interfaces.msg import SetParametersResult
-from rclpy.parameter import Parameter
+import rclpy  # type: ignore
+from rclpy.node import Node # type: ignore
+from rcl_interfaces.msg import SetParametersResult # type: ignore
+from rclpy.parameter import Parameter # type: ignore
 
 class SimpleParameter(Node):
     def __init__(self):
@@ -9,7 +9,7 @@ class SimpleParameter(Node):
         self.declare_parameter('lol_parameter', 28)
         self.declare_parameter('lol_string_parameter', "Lololol")
         lol_parameter = self.get_parameter('lol_parameter').value
-        self.get_logger().info('my_parameter: %s' % lol_parameter)
+        self.get_logger().info('lol_parameter: %s' % lol_parameter)
 
         self.add_on_set_parameters_callback(self.parameterrrrCallBack)
 
