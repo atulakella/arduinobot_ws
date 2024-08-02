@@ -1,7 +1,7 @@
-import rclpy 
-from rclpy.node import Node
-from rcl_interfaces.msg import SetParametersResult
-from rclpy.parameter import Parameter
+import rclpy  # type: ignore
+from rclpy.node import Node # type: ignore
+from rcl_interfaces.msg import SetParametersResult # type: ignore
+from rclpy.parameter import Parameter # type: ignore
 
 class SimpleParameter(Node):
     def __init__(self):
