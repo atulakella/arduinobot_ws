@@ -48,6 +48,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/atul/arduinobot_ws/src/arduinobot_description/meshes"
     "/home/atul/arduinobot_ws/src/arduinobot_description/launch"
     "/home/atul/arduinobot_ws/src/arduinobot_description/rviz"
+    "/home/atul/arduinobot_ws/src/arduinobot_description/models"
     )
 endif()
 
