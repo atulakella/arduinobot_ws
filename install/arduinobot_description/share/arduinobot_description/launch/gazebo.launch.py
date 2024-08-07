@@ -1,14 +1,14 @@
 import os
 from os import pathsep
-from ament_index_python.packages import get_package_share_directory, get_package_prefix
+from ament_index_python.packages import get_package_share_directory, get_package_prefix # type: ignore
 
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, SetEnvironmentVariable
-from launch.substitutions import Command, LaunchConfiguration
-from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, SetEnvironmentVariable # type: ignore
+from launch.substitutions import Command, LaunchConfiguration # type: ignore
+from launch.launch_description_sources import PythonLaunchDescriptionSource # type: ignore
 
-from launch_ros.actions import Node
-from launch_ros.parameter_descriptions import ParameterValue
+from launch_ros.actions import Node # type: ignore
+from launch_ros.parameter_descriptions import ParameterValue # type: ignore
 
 
 def generate_launch_description():
@@ -53,6 +53,7 @@ def generate_launch_description():
                                    '-topic', 'robot_description',
                                   ],
                         output='screen'
+                        
     )
 
     return LaunchDescription([
