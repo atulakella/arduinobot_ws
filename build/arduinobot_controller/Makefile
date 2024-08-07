@@ -197,6 +197,69 @@ arduinobot_controller_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_controller_uninstall.dir/build.make CMakeFiles/arduinobot_controller_uninstall.dir/build
 .PHONY : arduinobot_controller_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named slider_control
+
+# Build rule for target.
+slider_control: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 slider_control
+.PHONY : slider_control
+
+# fast build rule for target.
+slider_control/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slider_control.dir/build.make CMakeFiles/slider_control.dir/build
+.PHONY : slider_control/fast
+
+#=============================================================================
+# Target rules for targets named ament_cmake_python_copy_arduinobot_controller
+
+# Build rule for target.
+ament_cmake_python_copy_arduinobot_controller: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_arduinobot_controller
+.PHONY : ament_cmake_python_copy_arduinobot_controller
+
+# fast build rule for target.
+ament_cmake_python_copy_arduinobot_controller/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_arduinobot_controller.dir/build.make CMakeFiles/ament_cmake_python_copy_arduinobot_controller.dir/build
+.PHONY : ament_cmake_python_copy_arduinobot_controller/fast
+
+#=============================================================================
+# Target rules for targets named ament_cmake_python_build_arduinobot_controller_egg
+
+# Build rule for target.
+ament_cmake_python_build_arduinobot_controller_egg: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_build_arduinobot_controller_egg
+.PHONY : ament_cmake_python_build_arduinobot_controller_egg
+
+# fast build rule for target.
+ament_cmake_python_build_arduinobot_controller_egg/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_arduinobot_controller_egg.dir/build.make CMakeFiles/ament_cmake_python_build_arduinobot_controller_egg.dir/build
+.PHONY : ament_cmake_python_build_arduinobot_controller_egg/fast
+
+src/slider_control.o: src/slider_control.cpp.o
+.PHONY : src/slider_control.o
+
+# target to build an object file
+src/slider_control.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slider_control.dir/build.make CMakeFiles/slider_control.dir/src/slider_control.cpp.o
+.PHONY : src/slider_control.cpp.o
+
+src/slider_control.i: src/slider_control.cpp.i
+.PHONY : src/slider_control.i
+
+# target to preprocess a source file
+src/slider_control.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slider_control.dir/build.make CMakeFiles/slider_control.dir/src/slider_control.cpp.i
+.PHONY : src/slider_control.cpp.i
+
+src/slider_control.s: src/slider_control.cpp.s
+.PHONY : src/slider_control.s
+
+# target to generate assembly for a file
+src/slider_control.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slider_control.dir/build.make CMakeFiles/slider_control.dir/src/slider_control.cpp.s
+.PHONY : src/slider_control.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -210,8 +273,14 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... ament_cmake_python_build_arduinobot_controller_egg"
+	@echo "... ament_cmake_python_copy_arduinobot_controller"
 	@echo "... arduinobot_controller_uninstall"
 	@echo "... uninstall"
+	@echo "... slider_control"
+	@echo "... src/slider_control.o"
+	@echo "... src/slider_control.i"
+	@echo "... src/slider_control.s"
 .PHONY : help
 
 
