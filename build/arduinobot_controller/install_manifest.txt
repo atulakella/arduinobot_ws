@@ -1,3 +1,4 @@
+/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/config/arduinobot_controllers.yaml
 /home/atul/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/package_run_dependencies/arduinobot_controller
 /home/atul/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/parent_prefix_path/arduinobot_controller
 /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.sh

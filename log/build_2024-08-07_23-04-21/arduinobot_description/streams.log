@@ -1,0 +1,57 @@
+[0.046s] Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atul/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/atul/arduinobot_ws/build/arduinobot_description -- -j12 -l12
+[0.448s] Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atul/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/atul/arduinobot_ws/build/arduinobot_description -- -j12 -l12
+[0.490s] Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atul/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/atul/arduinobot_ws/build/arduinobot_description
+[0.498s] -- Install configuration: ""
+[0.499s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf
+[0.499s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_gazebo.xacro
+[0.499s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_ros2_control.xacro
+[0.499s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot.urdf.xacro
+[0.499s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes
+[0.500s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/link.STL
+[0.500s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/round_plate.STL
+[0.500s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/basement.STL
+[0.500s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/plate.STL
+[0.500s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/forward_drive_arm.STL
+[0.501s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/triangular_link.STL
+[0.501s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/claw_support.STL
+[0.501s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/base_plate.STL
+[0.501s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/vertical_drive_arm.STL
+[0.501s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL
+[0.501s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/right_finger.STL
+[0.501s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/left_finger.STL
+[0.501s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/servo_plate.STL
+[0.501s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch
+[0.502s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/gazebo.launch.py
+[0.502s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/display.launch.py
+[0.502s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/rviz
+[0.503s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/rviz/display.rviz
+[0.503s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models
+[0.503s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models
+[0.503s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane
+[0.504s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model.sdf
+[0.504s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model-1_2.sdf
+[0.504s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model.config
+[0.504s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model-1_3.sdf
+[0.504s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model-1_4.sdf
+[0.504s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun
+[0.504s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model.sdf
+[0.505s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model-1_2.sdf
+[0.505s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model.config
+[0.505s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model-1_3.sdf
+[0.505s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model-1_4.sdf
+[0.505s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/package_run_dependencies/arduinobot_description
+[0.505s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/parent_prefix_path/arduinobot_description
+[0.506s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.sh
+[0.506s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.dsv
+[0.506s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.sh
+[0.506s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.dsv
+[0.507s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.bash
+[0.507s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.sh
+[0.507s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.zsh
+[0.507s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.dsv
+[0.507s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.dsv
+[0.508s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/packages/arduinobot_description
+[0.508s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig.cmake
+[0.508s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig-version.cmake
+[0.509s] -- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.xml
+[0.514s] Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atul/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/atul/arduinobot_ws/build/arduinobot_description
