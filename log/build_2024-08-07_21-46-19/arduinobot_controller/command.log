@@ -1,0 +1,4 @@
+Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/atul/arduinobot_ws/build/arduinobot_controller -- -j12 -l12
+Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/atul/arduinobot_ws/build/arduinobot_controller -- -j12 -l12
+Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/atul/arduinobot_ws/build/arduinobot_controller
+Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/atul/arduinobot_ws/build/arduinobot_controller
