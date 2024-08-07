@@ -1,0 +1,15 @@
+/home/atul/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/package_run_dependencies/arduinobot_controller
+/home/atul/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/parent_prefix_path/arduinobot_controller
+/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.sh
+/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.dsv
+/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/path.sh
+/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/path.dsv
+/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.bash
+/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.sh
+/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.zsh
+/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.dsv
+/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.dsv
+/home/atul/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/packages/arduinobot_controller
+/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig.cmake
+/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig-version.cmake
+/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.xml
