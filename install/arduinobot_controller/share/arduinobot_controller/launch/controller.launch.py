@@ -1,9 +1,9 @@
 import os
 from launch import LaunchDescription
-from launch_ros.actions import Node
-from launch_ros.parameter_descriptions import ParameterValue
-from launch.substitutions import Command
-from ament_index_python.packages import get_package_share_directory
+from launch_ros.actions import Node # type: ignore
+from launch_ros.parameter_descriptions import ParameterValue # type: ignore
+from launch.substitutions import Command  # type: ignore
+from ament_index_python.packages import get_package_share_directory  # type: ignore
 
 
 def generate_launch_description():

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-import rclpy
-from rclpy.node import Node
-from sensor_msgs.msg import JointState
-from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
+import rclpy # type: ignore
+from rclpy.node import Node # type: ignore
+from sensor_msgs.msg import JointState # type: ignore
+from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint # type: ignore
 
 
 class SliderControl(Node):

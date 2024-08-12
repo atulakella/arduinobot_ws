@@ -6,6 +6,7 @@
 /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/basement.STL
 /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/plate.STL
 /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/forward_drive_arm.STL
+/home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/pi_camera.STL
 /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/triangular_link.STL
 /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/claw_support.STL
 /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/base_plate.STL
