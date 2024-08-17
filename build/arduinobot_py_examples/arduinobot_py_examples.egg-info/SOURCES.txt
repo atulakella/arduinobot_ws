@@ -11,6 +11,7 @@ setup.py
 arduinobot_py_examples/__init__.py
 arduinobot_py_examples/simple_parameter.py
 arduinobot_py_examples/simple_publisher.py
+arduinobot_py_examples/simple_service_server.py
 arduinobot_py_examples/simple_subscriber.py
 resource/arduinobot_py_examples
 test/test_copyright.py
