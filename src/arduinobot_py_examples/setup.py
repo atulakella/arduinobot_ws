@@ -1,7 +1,7 @@
 from setuptools import setup
 
 package_name = 'arduinobot_py_examples'
- 
+
 setup(
     name=package_name,
     version='0.0.0',
@@ -23,6 +23,7 @@ setup(
             'simple_publisher = arduinobot_py_examples.simple_publisher:main',
             'simple_subscriber = arduinobot_py_examples.simple_subscriber:main',
             'simple_parameter = arduinobot_py_examples.simple_parameter:main',
+            'simple_service_server = arduinobot_py_examples.simple_service_server:main',
         ],
     },
 )
