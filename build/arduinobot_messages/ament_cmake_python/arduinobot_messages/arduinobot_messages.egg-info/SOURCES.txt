@@ -4,3 +4,5 @@ arduinobot_messages.egg-info/PKG-INFO
 arduinobot_messages.egg-info/SOURCES.txt
 arduinobot_messages.egg-info/dependency_links.txt
 arduinobot_messages.egg-info/top_level.txt
+arduinobot_messages/srv/__init__.py
+arduinobot_messages/srv/_add_two_ints.py

@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "arduinobot_controller")
 set(arduinobot_controller_VERSION "0.0.0")
-set(arduinobot_controller_MAINTAINER "Antonio Brandi <antonio.brandi@outlook.it>")
+set(arduinobot_controller_MAINTAINER "atul <atul.akella@gmail.com>")
 set(arduinobot_controller_BUILD_DEPENDS "rclcpp" "rclpy" "trajectory_msgs" "sensor_msgs")
 set(arduinobot_controller_BUILDTOOL_DEPENDS "ament_cmake" "ament_cmake_python")
 set(arduinobot_controller_BUILD_EXPORT_DEPENDS "rclcpp" "rclpy" "trajectory_msgs" "sensor_msgs")

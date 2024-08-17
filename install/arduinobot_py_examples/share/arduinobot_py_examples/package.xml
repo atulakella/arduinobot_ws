@@ -4,7 +4,7 @@
   <name>arduinobot_py_examples</name>
   <version>0.0.0</version>
   <description>ROS 2 Code Examples</description>
-  <maintainer email="antonio.brandi@outlook.it">Antonio Brandi</maintainer>
+  <maintainer email="atul.akella@gmail.com">atul</maintainer>
   <license>Apache 2.0</license>
 
   <exec_depend>rclpy</exec_depend>
