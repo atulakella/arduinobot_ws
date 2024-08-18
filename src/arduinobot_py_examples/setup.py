@@ -13,8 +13,8 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='user',
-    maintainer_email='antonio.brandi@outlook.it',
+    maintainer='atul',
+    maintainer_email='atul.akella@gmail.com',
     description='ROS 2 Code Examples',
     license='Apache 2.0',
     tests_require=['pytest'],
@@ -24,6 +24,7 @@ setup(
             'simple_subscriber = arduinobot_py_examples.simple_subscriber:main',
             'simple_parameter = arduinobot_py_examples.simple_parameter:main',
             'simple_service_server = arduinobot_py_examples.simple_service_server:main',
+            'simple_service_client = arduinobot_py_examples.simple_service_client:main',
         ],
     },
 )
