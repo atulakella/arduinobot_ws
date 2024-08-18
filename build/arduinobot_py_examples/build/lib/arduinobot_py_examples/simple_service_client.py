@@ -17,7 +17,7 @@ class SimpleServiceServer(Node):
         self.get_logger().info("Returning sum: %d" % res.sum)
         return res
 
-
+ 
 def main():
     rclpy.init()
 

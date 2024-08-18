@@ -1,1 +1,1 @@
-arduinobot_msgs:joint_state_publisher_gui:rcl_interfaces:rclpy:robot_state_publisher:ros2launch:std_msgs
+arduinobot_msgs:rclpy:std_msgs

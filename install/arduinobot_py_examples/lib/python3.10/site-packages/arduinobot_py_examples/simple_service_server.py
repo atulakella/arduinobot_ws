@@ -1,6 +1,6 @@
-import rclpy
-from rclpy.node import Node
-from arduinobot_msgs.srv import AddTwoInts
+import rclpy # type: ignore
+from rclpy.node import Node # type: ignore
+from arduinobot_msgs.srv import AddTwoInts # type: ignore
 
 
 class SimpleServiceServer(Node):
