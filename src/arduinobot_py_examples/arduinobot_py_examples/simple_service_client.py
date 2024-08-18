@@ -1,4 +1,4 @@
-import rclpy
+import rclpy # type: ignore
 from rclpy.node import Node # type: ignore
 from arduinobot_msgs.srv import AddTwoInts # type: ignore
 
