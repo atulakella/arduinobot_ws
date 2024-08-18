@@ -1,0 +1,204 @@
+[0.033s] Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atul/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/atul/arduinobot_ws/src/arduinobot_messages -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atul/arduinobot_ws/install/arduinobot_msgs
+[0.237s] -- The C compiler identification is GNU 11.4.0
+[0.934s] -- The CXX compiler identification is GNU 11.4.0
+[1.663s] -- Detecting C compiler ABI info
+[1.966s] -- Detecting C compiler ABI info - done
+[1.989s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.991s] -- Detecting C compile features
+[1.992s] -- Detecting C compile features - done
+[2.000s] -- Detecting CXX compiler ABI info
+[2.220s] -- Detecting CXX compiler ABI info - done
+[2.230s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.231s] -- Detecting CXX compile features
+[2.232s] -- Detecting CXX compile features - done
+[2.235s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.450s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.548s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.581s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.584s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[2.960s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.967s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.980s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.997s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.024s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.105s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.523s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.962s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.122s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.437s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.440s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.280s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.281s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.281s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.281s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.311s] -- Found PythonExtra: .so  
+[5.524s] -- Added test 'lint_cmake' to check CMake code style
+[5.526s] -- Added test 'xmllint' to check XML markup files
+[5.539s] -- Configuring done
+[5.582s] -- Generating done
+[5.585s] -- Build files have been written to: /home/atul/arduinobot_ws/build/arduinobot_msgs
+[5.595s] Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atul/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/atul/arduinobot_ws/src/arduinobot_messages -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atul/arduinobot_ws/install/arduinobot_msgs
+[5.600s] Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atul/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/atul/arduinobot_ws/build/arduinobot_msgs -- -j12 -l12
+[5.642s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.655s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.664s] [  6%] Built target ament_cmake_python_symlink_arduinobot_msgs
+[5.983s] running egg_info
+[5.984s] creating arduinobot_msgs.egg-info
+[5.984s] writing arduinobot_msgs.egg-info/PKG-INFO
+[5.985s] writing dependency_links to arduinobot_msgs.egg-info/dependency_links.txt
+[5.985s] writing top-level names to arduinobot_msgs.egg-info/top_level.txt
+[5.986s] writing manifest file 'arduinobot_msgs.egg-info/SOURCES.txt'
+[5.989s] reading manifest file 'arduinobot_msgs.egg-info/SOURCES.txt'
+[5.989s] writing manifest file 'arduinobot_msgs.egg-info/SOURCES.txt'
+[6.031s] [  6%] Built target ament_cmake_python_build_arduinobot_msgs_egg
+[6.039s] [  6%] Built target arduinobot_msgs__cpp
+[6.051s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.052s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.054s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.056s] [ 19%] [32mBuilding C object CMakeFiles/arduinobot_msgs__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_msgs/srv/detail/add_two_ints__functions.c.o[0m
+[6.132s] [ 22%] [32m[1mLinking C shared library libarduinobot_msgs__rosidl_generator_c.so[0m
+[6.391s] [ 22%] Built target arduinobot_msgs__rosidl_generator_c
+[6.406s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.408s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.410s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.440s] [ 35%] [32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arduinobot_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[6.499s] [ 38%] [32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[6.523s] [ 41%] [32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arduinobot_msgs/srv/detail/add_two_ints__type_support.cpp.o[0m
+[6.995s] [ 45%] [32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/arduinobot_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[7.023s] [ 51%] [32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arduinobot_msgs/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[7.023s] [ 51%] [32mBuilding C object CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_msgs/srv/detail/add_two_ints__type_support.c.o[0m
+[7.030s] [ 54%] [32m[1mLinking CXX shared library libarduinobot_msgs__rosidl_typesupport_cpp.so[0m
+[7.051s] [ 58%] [32m[1mLinking CXX shared library libarduinobot_msgs__rosidl_typesupport_c.so[0m
+[7.087s] [ 61%] [32m[1mLinking C shared library libarduinobot_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.287s] [ 61%] Built target arduinobot_msgs__rosidl_typesupport_cpp
+[7.313s] [ 61%] Built target arduinobot_msgs__rosidl_typesupport_c
+[7.323s] [ 61%] Built target arduinobot_msgs__rosidl_typesupport_introspection_c
+[7.342s] [ 64%] [32m[1mLinking CXX shared library libarduinobot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.344s] [ 67%] [32m[1mLinking CXX shared library libarduinobot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.474s] [ 67%] Built target arduinobot_msgs__rosidl_typesupport_introspection_cpp
+[7.535s] [ 67%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_cpp
+[7.580s] [ 70%] [32m[1mLinking CXX shared library libarduinobot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[7.793s] [ 70%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_c
+[7.816s] [ 70%] Built target arduinobot_msgs
+[7.838s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.336s] [ 74%] Built target arduinobot_msgs__py
+[8.360s] [ 77%] [32mBuilding C object CMakeFiles/arduinobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/arduinobot_msgs/srv/_add_two_ints_s.c.o[0m
+[8.483s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/arduinobot_msgs/libarduinobot_msgs__rosidl_generator_py.so[0m
+[8.758s] [ 80%] Built target arduinobot_msgs__rosidl_generator_py
+[8.791s] [ 87%] [32mBuilding C object CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.792s] [ 87%] [32mBuilding C object CMakeFiles/arduinobot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[8.793s] [ 90%] [32mBuilding C object CMakeFiles/arduinobot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.914s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.914s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.930s] [100%] [32m[1mLinking C shared library rosidl_generator_py/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.059s] [100%] Built target arduinobot_msgs__rosidl_typesupport_c__pyext
+[9.062s] [100%] Built target arduinobot_msgs__rosidl_typesupport_introspection_c__pyext
+[9.119s] [100%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[9.133s] Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atul/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/atul/arduinobot_ws/build/arduinobot_msgs -- -j12 -l12
+[9.218s] Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atul/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/atul/arduinobot_ws/build/arduinobot_msgs
+[9.225s] -- Install configuration: ""
+[9.226s] -- Execute custom install script
+[9.227s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/ament_index/resource_index/rosidl_interfaces/arduinobot_msgs
+[9.238s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/msg/rosidl_generator_c__visibility_control.h
+[9.247s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/add_two_ints.h
+[9.260s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__functions.h
+[9.269s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__struct.h
+[9.279s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__type_support.h
+[9.288s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/library_path.sh
+[9.299s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/library_path.dsv
+[9.309s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.319s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[9.328s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/add_two_ints.hpp
+[9.337s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__builder.hpp
+[9.346s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__struct.hpp
+[9.357s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__traits.hpp
+[9.366s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.375s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[9.384s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.395s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[9.405s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[9.415s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/pythonpath.sh
+[9.424s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/pythonpath.dsv
+[9.434s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[9.444s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.455s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.466s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[9.479s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/__init__.py
+[9.490s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_c.c
+[9.499s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.510s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[9.521s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.531s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.540s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.549s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/libarduinobot_msgs__rosidl_generator_py.so
+[9.561s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/srv/__init__.py
+[9.570s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/srv/_add_two_ints.py
+[9.579s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/srv/_add_two_ints_s.c
+[9.589s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.589s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.589s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.590s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/srv/AddTwoInts.idl
+[9.599s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/srv/AddTwoInts.srv
+[9.609s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/srv/AddTwoInts_Request.msg
+[9.618s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/srv/AddTwoInts_Response.msg
+[9.629s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/ament_index/resource_index/package_run_dependencies/arduinobot_msgs
+[9.639s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/ament_index/resource_index/parent_prefix_path/arduinobot_msgs
+[9.649s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/ament_prefix_path.sh
+[9.661s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/ament_prefix_path.dsv
+[9.671s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/path.sh
+[9.681s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/path.dsv
+[9.690s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/local_setup.bash
+[9.700s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/local_setup.sh
+[9.709s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/local_setup.zsh
+[9.719s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/local_setup.dsv
+[9.728s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/package.dsv
+[9.738s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/ament_index/resource_index/packages/arduinobot_msgs
+[9.747s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/rosidl_cmake-extras.cmake
+[9.761s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.770s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[9.782s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[9.792s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.801s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.810s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.819s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgsConfig.cmake
+[9.829s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgsConfig-version.cmake
+[9.839s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/package.xml
+[9.849s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_generator_c.so
+[9.849s] -- Set runtime path of "/home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_generator_c.so" to ""
+[9.849s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_fastrtps_c.so
+[9.850s] -- Set runtime path of "/home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[9.850s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.851s] -- Set runtime path of "/home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.852s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_introspection_c.so
+[9.852s] -- Set runtime path of "/home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_introspection_c.so" to ""
+[9.852s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_c.so
+[9.853s] -- Set runtime path of "/home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_c.so" to ""
+[9.853s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_introspection_cpp.so
+[9.853s] -- Set runtime path of "/home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[9.853s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_cpp.so
+[9.853s] -- Set runtime path of "/home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_cpp.so" to ""
+[9.900s] Listing '/home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs'...
+[9.900s] Compiling '/home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/__init__.py'...
+[9.900s] Listing '/home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/srv'...
+[9.901s] Compiling '/home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/srv/__init__.py'...
+[9.901s] Compiling '/home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/srv/_add_two_ints.py'...
+[9.907s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_generator_py.so
+[9.907s] -- Set runtime path of "/home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_generator_py.so" to ""
+[9.908s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_generator_cExport.cmake
+[9.909s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_generator_cExport-noconfig.cmake
+[9.909s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[9.909s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.909s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_generator_cppExport.cmake
+[9.909s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.909s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.910s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[9.910s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.910s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgs__rosidl_typesupport_cExport.cmake
+[9.911s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[9.911s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[9.911s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.912s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgs__rosidl_typesupport_cppExport.cmake
+[9.912s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[9.912s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_generator_pyExport.cmake
+[9.912s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[9.916s] Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atul/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/atul/arduinobot_ws/build/arduinobot_msgs

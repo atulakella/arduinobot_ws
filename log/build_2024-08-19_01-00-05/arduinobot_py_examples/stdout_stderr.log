@@ -1,0 +1,28 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating arduinobot_py_examples.egg-info
+writing arduinobot_py_examples.egg-info/PKG-INFO
+writing dependency_links to arduinobot_py_examples.egg-info/dependency_links.txt
+writing entry points to arduinobot_py_examples.egg-info/entry_points.txt
+writing requirements to arduinobot_py_examples.egg-info/requires.txt
+writing top-level names to arduinobot_py_examples.egg-info/top_level.txt
+writing manifest file 'arduinobot_py_examples.egg-info/SOURCES.txt'
+reading manifest file 'arduinobot_py_examples.egg-info/SOURCES.txt'
+writing manifest file 'arduinobot_py_examples.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot-py-examples.egg-link (link to .)
+Installing simple_parameter script to /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+Installing simple_publisher script to /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+Installing simple_service_client script to /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+Installing simple_service_server script to /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+Installing simple_subscriber script to /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+
+Installed /home/atul/arduinobot_ws/build/arduinobot_py_examples
+running symlink_data
+creating /home/atul/arduinobot_ws/install/arduinobot_py_examples/share/ament_index
+creating /home/atul/arduinobot_ws/install/arduinobot_py_examples/share/ament_index/resource_index
+creating /home/atul/arduinobot_ws/install/arduinobot_py_examples/share/ament_index/resource_index/packages
+symbolically linking /home/atul/arduinobot_ws/build/arduinobot_py_examples/resource/arduinobot_py_examples -> /home/atul/arduinobot_ws/install/arduinobot_py_examples/share/ament_index/resource_index/packages
+symbolically linking /home/atul/arduinobot_ws/build/arduinobot_py_examples/package.xml -> /home/atul/arduinobot_ws/install/arduinobot_py_examples/share/arduinobot_py_examples

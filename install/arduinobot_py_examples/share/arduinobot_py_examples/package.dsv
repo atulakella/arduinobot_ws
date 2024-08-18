@@ -4,3 +4,6 @@ source;share/arduinobot_py_examples/hook/pythonpath.sh
 source;share/arduinobot_py_examples/hook/ament_prefix_path.ps1
 source;share/arduinobot_py_examples/hook/ament_prefix_path.dsv
 source;share/arduinobot_py_examples/hook/ament_prefix_path.sh
+source;../../build/arduinobot_py_examples/share/arduinobot_py_examples/hook/pythonpath_develop.ps1
+source;../../build/arduinobot_py_examples/share/arduinobot_py_examples/hook/pythonpath_develop.dsv
+source;../../build/arduinobot_py_examples/share/arduinobot_py_examples/hook/pythonpath_develop.sh

@@ -1,0 +1,76 @@
+[0.041s] Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atul/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/atul/arduinobot_ws/src/arduinobot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atul/arduinobot_ws/install/arduinobot_description
+[0.220s] -- The C compiler identification is GNU 11.4.0
+[0.726s] -- The CXX compiler identification is GNU 11.4.0
+[1.132s] -- Detecting C compiler ABI info
+[1.333s] -- Detecting C compiler ABI info - done
+[1.346s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.347s] -- Detecting C compile features
+[1.350s] -- Detecting C compile features - done
+[1.354s] -- Detecting CXX compiler ABI info
+[1.586s] -- Detecting CXX compiler ABI info - done
+[1.598s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.598s] -- Detecting CXX compile features
+[1.599s] -- Detecting CXX compile features - done
+[1.611s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.816s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.944s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.997s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.121s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.122s] -- Added test 'lint_cmake' to check CMake code style
+[2.123s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.126s] -- Added test 'xmllint' to check XML markup files
+[2.128s] -- Configuring done
+[2.132s] -- Generating done
+[2.133s] -- Build files have been written to: /home/atul/arduinobot_ws/build/arduinobot_description
+[2.141s] Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atul/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/atul/arduinobot_ws/src/arduinobot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atul/arduinobot_ws/install/arduinobot_description
+[2.143s] Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atul/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/atul/arduinobot_ws/build/arduinobot_description -- -j12 -l12
+[2.193s] Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atul/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/atul/arduinobot_ws/build/arduinobot_description -- -j12 -l12
+[2.234s] Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atul/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/atul/arduinobot_ws/build/arduinobot_description
+[2.240s] -- Install configuration: ""
+[2.241s] -- Execute custom install script
+[2.242s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot.urdf.xacro
+[2.253s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_gazebo.xacro
+[2.264s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_ros2_control.xacro
+[2.274s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/base_plate.STL
+[2.283s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/basement.STL
+[2.294s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/claw_support.STL
+[2.305s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/forward_drive_arm.STL
+[2.318s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL
+[2.328s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/left_finger.STL
+[2.336s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/link.STL
+[2.349s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/pi_camera.STL
+[2.357s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/plate.STL
+[2.367s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/right_finger.STL
+[2.377s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/round_plate.STL
+[2.386s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/servo_plate.STL
+[2.397s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/triangular_link.STL
+[2.408s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/vertical_drive_arm.STL
+[2.418s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/display.launch.py
+[2.427s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/gazebo.launch.py
+[2.438s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/rviz/display.rviz
+[2.449s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model-1_2.sdf
+[2.461s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model-1_3.sdf
+[2.472s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model-1_4.sdf
+[2.482s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model.config
+[2.491s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model.sdf
+[2.502s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model-1_2.sdf
+[2.512s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model-1_3.sdf
+[2.521s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model-1_4.sdf
+[2.530s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model.config
+[2.539s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model.sdf
+[2.548s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/package_run_dependencies/arduinobot_description
+[2.557s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/parent_prefix_path/arduinobot_description
+[2.566s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.sh
+[2.578s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.dsv
+[2.587s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.sh
+[2.596s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.dsv
+[2.608s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.bash
+[2.619s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.sh
+[2.630s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.zsh
+[2.639s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.dsv
+[2.648s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.dsv
+[2.658s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/packages/arduinobot_description
+[2.667s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig.cmake
+[2.677s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig-version.cmake
+[2.688s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.xml
+[2.700s] Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atul/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/atul/arduinobot_ws/build/arduinobot_description

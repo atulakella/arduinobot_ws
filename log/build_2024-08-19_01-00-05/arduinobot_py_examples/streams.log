@@ -1,0 +1,30 @@
+[1.256s] Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_py_examples': AMENT_PREFIX_PATH=/home/atul/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atul/arduinobot_ws/install/arduinobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/atul/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atul/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:/home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/atul/arduinobot_ws/build/arduinobot_py_examples/build --no-deps symlink_data
+[1.587s] running develop
+[1.599s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.599s]   warnings.warn(
+[1.790s] running egg_info
+[1.790s] creating arduinobot_py_examples.egg-info
+[1.791s] writing arduinobot_py_examples.egg-info/PKG-INFO
+[1.791s] writing dependency_links to arduinobot_py_examples.egg-info/dependency_links.txt
+[1.791s] writing entry points to arduinobot_py_examples.egg-info/entry_points.txt
+[1.791s] writing requirements to arduinobot_py_examples.egg-info/requires.txt
+[1.791s] writing top-level names to arduinobot_py_examples.egg-info/top_level.txt
+[1.791s] writing manifest file 'arduinobot_py_examples.egg-info/SOURCES.txt'
+[1.794s] reading manifest file 'arduinobot_py_examples.egg-info/SOURCES.txt'
+[1.794s] writing manifest file 'arduinobot_py_examples.egg-info/SOURCES.txt'
+[1.796s] running build_ext
+[1.796s] Creating /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot-py-examples.egg-link (link to .)
+[1.797s] Installing simple_parameter script to /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.798s] Installing simple_publisher script to /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.798s] Installing simple_service_client script to /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.798s] Installing simple_service_server script to /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.798s] Installing simple_subscriber script to /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.799s] 
+[1.799s] Installed /home/atul/arduinobot_ws/build/arduinobot_py_examples
+[1.799s] running symlink_data
+[1.799s] creating /home/atul/arduinobot_ws/install/arduinobot_py_examples/share/ament_index
+[1.799s] creating /home/atul/arduinobot_ws/install/arduinobot_py_examples/share/ament_index/resource_index
+[1.799s] creating /home/atul/arduinobot_ws/install/arduinobot_py_examples/share/ament_index/resource_index/packages
+[1.800s] symbolically linking /home/atul/arduinobot_ws/build/arduinobot_py_examples/resource/arduinobot_py_examples -> /home/atul/arduinobot_ws/install/arduinobot_py_examples/share/ament_index/resource_index/packages
+[1.800s] symbolically linking /home/atul/arduinobot_ws/build/arduinobot_py_examples/package.xml -> /home/atul/arduinobot_ws/install/arduinobot_py_examples/share/arduinobot_py_examples
+[1.840s] Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_py_examples' returned '0': AMENT_PREFIX_PATH=/home/atul/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atul/arduinobot_ws/install/arduinobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/atul/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atul/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:/home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/atul/arduinobot_ws/build/arduinobot_py_examples/build --no-deps symlink_data

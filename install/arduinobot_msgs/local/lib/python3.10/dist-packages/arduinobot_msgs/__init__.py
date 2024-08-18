@@ -1,0 +1,1 @@
+/home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs/__init__.py

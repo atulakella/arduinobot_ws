@@ -1,7 +1,1 @@
-setup.py
-arduinobot_controller/__init__.py
-arduinobot_controller/slider_control.py
-arduinobot_controller.egg-info/PKG-INFO
-arduinobot_controller.egg-info/SOURCES.txt
-arduinobot_controller.egg-info/dependency_links.txt
-arduinobot_controller.egg-info/top_level.txt
+/home/atul/arduinobot_ws/build/arduinobot_controller/ament_cmake_python/arduinobot_controller/arduinobot_controller.egg-info/SOURCES.txt

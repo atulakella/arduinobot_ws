@@ -1,0 +1,22 @@
+[0.043s] Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atul/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/atul/arduinobot_ws/src/arduinobot_messages -DCMAKE_INSTALL_PREFIX=/home/atul/arduinobot_ws/install/arduinobot_msgs
+[0.085s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.375s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.378s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.758s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.765s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.786s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.821s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.865s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.967s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.272s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[1.272s]   ament_package_xml() package name 'arduinobot_msgs' in '/package.xml' does
+[1.272s]   not match current PROJECT_NAME 'arduinobot_messages'.  You must call
+[1.273s]   project() with the same package name before.
+[1.273s] Call Stack (most recent call first):
+[1.273s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[1.273s]   CMakeLists.txt:20 (rosidl_generate_interfaces)
+[1.274s] 
+[1.274s] [0m
+[1.274s] -- Configuring incomplete, errors occurred!
+[1.275s] See also "/home/atul/arduinobot_ws/build/arduinobot_msgs/CMakeFiles/CMakeOutput.log".
+[1.287s] Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atul/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/atul/arduinobot_ws/src/arduinobot_messages -DCMAKE_INSTALL_PREFIX=/home/atul/arduinobot_ws/install/arduinobot_msgs

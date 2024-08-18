@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libarduinobot_messages__rosidl_generator_c.so -o libarduinobot_messages__rosidl_generator_c.so CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/add_two_ints__functions.c.o  -Wl,-rpath,/opt/ros/humble/lib: /opt/ros/humble/lib/librosidl_runtime_c.so /opt/ros/humble/lib/librcutils.so -ldl 
