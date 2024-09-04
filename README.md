@@ -4,3 +4,4 @@
 Dependencies:
 - Ubuntu 22.04
 - ROS2 Humble 
+- MoveIt 2
