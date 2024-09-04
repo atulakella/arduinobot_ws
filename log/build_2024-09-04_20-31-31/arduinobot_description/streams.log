@@ -1,0 +1,51 @@
+[0.020s] Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_description': /usr/bin/cmake --build /home/atul/arduinobot_ws/build/arduinobot_description -- -j20 -l20
+[0.068s] Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_description' returned '0': /usr/bin/cmake --build /home/atul/arduinobot_ws/build/arduinobot_description -- -j20 -l20
+[0.091s] Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_description': /usr/bin/cmake --install /home/atul/arduinobot_ws/build/arduinobot_description
+[0.100s] -- Install configuration: ""
+[0.102s] -- Execute custom install script
+[0.104s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot.urdf.xacro
+[0.104s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_gazebo.xacro
+[0.105s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_ros2_control.xacro
+[0.106s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/base_plate.STL
+[0.106s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/basement.STL
+[0.107s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/claw_support.STL
+[0.107s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/forward_drive_arm.STL
+[0.107s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL
+[0.108s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/left_finger.STL
+[0.108s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/link.STL
+[0.109s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/pi_camera.STL
+[0.109s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/plate.STL
+[0.110s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/right_finger.STL
+[0.110s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/round_plate.STL
+[0.111s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/servo_plate.STL
+[0.111s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/triangular_link.STL
+[0.112s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/vertical_drive_arm.STL
+[0.112s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/display.launch.py
+[0.113s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/gazebo.launch.py
+[0.113s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/rviz/display.rviz
+[0.114s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model-1_2.sdf
+[0.114s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model-1_3.sdf
+[0.115s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model-1_4.sdf
+[0.115s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model.config
+[0.115s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model.sdf
+[0.116s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model-1_2.sdf
+[0.116s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model-1_3.sdf
+[0.117s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model-1_4.sdf
+[0.117s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model.config
+[0.117s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model.sdf
+[0.118s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/package_run_dependencies/arduinobot_description
+[0.118s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/parent_prefix_path/arduinobot_description
+[0.119s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.sh
+[0.119s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.dsv
+[0.120s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.sh
+[0.120s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.dsv
+[0.120s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.bash
+[0.121s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.sh
+[0.121s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.zsh
+[0.122s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.dsv
+[0.122s] -- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.dsv
+[0.127s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/packages/arduinobot_description
+[0.128s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig.cmake
+[0.128s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig-version.cmake
+[0.129s] -- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.xml
+[0.130s] Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_description' returned '0': /usr/bin/cmake --install /home/atul/arduinobot_ws/build/arduinobot_description
