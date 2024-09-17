@@ -1,0 +1,54 @@
+[0.547s] Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_py_examples': AMENT_PREFIX_PATH=/home/atul/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atul/arduinobot_ws/install/arduinobot_msgs LD_LIBRARY_PATH=/home/atul/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atul/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:/home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/atul/arduinobot_ws/build/arduinobot_py_examples/build
+[0.691s] running develop
+[0.692s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.692s]   warnings.warn(
+[0.773s] Removing /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot-py-examples.egg-link (link to .)
+[0.791s] Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_py_examples' returned '0': AMENT_PREFIX_PATH=/home/atul/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atul/arduinobot_ws/install/arduinobot_msgs LD_LIBRARY_PATH=/home/atul/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atul/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:/home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/atul/arduinobot_ws/build/arduinobot_py_examples/build
+[0.793s] Invoking command in '/home/atul/arduinobot_ws/src/arduinobot_py_examples': AMENT_PREFIX_PATH=/home/atul/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atul/arduinobot_ws/install/arduinobot_msgs LD_LIBRARY_PATH=/home/atul/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atul/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:/home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/atul/arduinobot_ws/build/arduinobot_py_examples/build install --record /home/atul/arduinobot_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data --force
+[0.927s] running egg_info
+[0.928s] writing ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/PKG-INFO
+[0.928s] writing dependency_links to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/dependency_links.txt
+[0.928s] writing entry points to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/entry_points.txt
+[0.928s] writing requirements to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/requires.txt
+[0.928s] writing top-level names to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt
+[0.931s] reading manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[0.931s] writing manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[0.931s] running build
+[0.931s] running build_py
+[0.932s] creating /home/atul/arduinobot_ws/build/arduinobot_py_examples/build
+[0.932s] creating /home/atul/arduinobot_ws/build/arduinobot_py_examples/build/lib
+[0.932s] creating /home/atul/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[0.932s] copying arduinobot_py_examples/simple_parameter.py -> /home/atul/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[0.932s] copying arduinobot_py_examples/simple_publisher.py -> /home/atul/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[0.932s] copying arduinobot_py_examples/simple_subscriber.py -> /home/atul/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[0.933s] copying arduinobot_py_examples/__init__.py -> /home/atul/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[0.933s] copying arduinobot_py_examples/simple_service_server.py -> /home/atul/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[0.933s] copying arduinobot_py_examples/simple_service_client.py -> /home/atul/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[0.934s] running install
+[0.934s] running install_lib
+[0.934s] creating /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[0.934s] copying /home/atul/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_parameter.py -> /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[0.935s] copying /home/atul/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_publisher.py -> /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[0.935s] copying /home/atul/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_subscriber.py -> /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[0.935s] copying /home/atul/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/__init__.py -> /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[0.935s] copying /home/atul/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_service_server.py -> /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[0.935s] copying /home/atul/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_service_client.py -> /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[0.935s] byte-compiling /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_parameter.py to simple_parameter.cpython-310.pyc
+[0.936s] byte-compiling /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_publisher.py to simple_publisher.cpython-310.pyc
+[0.936s] byte-compiling /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_subscriber.py to simple_subscriber.cpython-310.pyc
+[0.936s] byte-compiling /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/__init__.py to __init__.cpython-310.pyc
+[0.936s] byte-compiling /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_service_server.py to simple_service_server.cpython-310.pyc
+[0.936s] byte-compiling /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_service_client.py to simple_service_client.cpython-310.pyc
+[0.937s] running install_data
+[0.937s] copying resource/arduinobot_py_examples -> /home/atul/arduinobot_ws/install/arduinobot_py_examples/share/ament_index/resource_index/packages
+[0.937s] copying package.xml -> /home/atul/arduinobot_ws/install/arduinobot_py_examples/share/arduinobot_py_examples
+[0.938s] running install_egg_info
+[0.939s] Copying ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info to /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples-0.0.0-py3.10.egg-info
+[0.940s] running install_scripts
+[0.955s] Installing simple_parameter script to /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[0.955s] Installing simple_publisher script to /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[0.955s] Installing simple_service_client script to /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[0.955s] Installing simple_service_server script to /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[0.955s] Installing simple_subscriber script to /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[0.955s] writing list of installed files to '/home/atul/arduinobot_ws/build/arduinobot_py_examples/install.log'
+[0.971s] Invoked command in '/home/atul/arduinobot_ws/src/arduinobot_py_examples' returned '0': AMENT_PREFIX_PATH=/home/atul/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atul/arduinobot_ws/install/arduinobot_msgs LD_LIBRARY_PATH=/home/atul/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atul/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:/home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/atul/arduinobot_ws/build/arduinobot_py_examples/build install --record /home/atul/arduinobot_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data --force

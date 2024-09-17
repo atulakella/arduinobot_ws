@@ -175,14 +175,14 @@ CMakeFiles/arduinobot_msgs_uninstall.dir/clean:
 # Target rules for target CMakeFiles/arduinobot_msgs.dir
 
 # All Build rule for target.
+CMakeFiles/arduinobot_msgs.dir/all: CMakeFiles/arduinobot_msgs__cpp.dir/all
+CMakeFiles/arduinobot_msgs.dir/all: CMakeFiles/arduinobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/all
+CMakeFiles/arduinobot_msgs.dir/all: CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/arduinobot_msgs.dir/all: CMakeFiles/arduinobot_msgs__rosidl_typesupport_c.dir/all
 CMakeFiles/arduinobot_msgs.dir/all: CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_cpp.dir/all
 CMakeFiles/arduinobot_msgs.dir/all: CMakeFiles/arduinobot_msgs__rosidl_typesupport_cpp.dir/all
 CMakeFiles/arduinobot_msgs.dir/all: CMakeFiles/arduinobot_msgs__rosidl_generator_c.dir/all
 CMakeFiles/arduinobot_msgs.dir/all: CMakeFiles/arduinobot_msgs__rosidl_typesupport_fastrtps_c.dir/all
-CMakeFiles/arduinobot_msgs.dir/all: CMakeFiles/arduinobot_msgs__cpp.dir/all
-CMakeFiles/arduinobot_msgs.dir/all: CMakeFiles/arduinobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/all
-CMakeFiles/arduinobot_msgs.dir/all: CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_msgs.dir/build.make CMakeFiles/arduinobot_msgs.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_msgs.dir/build.make CMakeFiles/arduinobot_msgs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atul/arduinobot_ws/build/arduinobot_msgs/CMakeFiles --progress-num= "Built target arduinobot_msgs"
@@ -526,11 +526,11 @@ CMakeFiles/arduinobot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/clean:
 # Target rules for target CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_c__pyext.dir
 
 # All Build rule for target.
+CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/arduinobot_msgs__rosidl_typesupport_c.dir/all
 CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/arduinobot_msgs__rosidl_generator_py.dir/all
 CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: arduinobot_msgs__py/CMakeFiles/arduinobot_msgs__py.dir/all
 CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/arduinobot_msgs__rosidl_generator_c.dir/all
-CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_c__pyext.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atul/arduinobot_ws/build/arduinobot_msgs/CMakeFiles --progress-num=27,28 "Built target arduinobot_msgs__rosidl_typesupport_introspection_c__pyext"
