@@ -1,0 +1,489 @@
+[0.000000] (-) TimerEvent: {}
+[0.000800] (arduinobot_controller) JobQueued: {'identifier': 'arduinobot_controller', 'dependencies': OrderedDict()}
+[0.000878] (arduinobot_description) JobQueued: {'identifier': 'arduinobot_description', 'dependencies': OrderedDict()}
+[0.000936] (arduinobot_msgs) JobQueued: {'identifier': 'arduinobot_msgs', 'dependencies': OrderedDict()}
+[0.000993] (arduinobot_py_examples) JobQueued: {'identifier': 'arduinobot_py_examples', 'dependencies': OrderedDict([('arduinobot_msgs', '/home/atul/arduinobot_ws/install/arduinobot_msgs')])}
+[0.001053] (arduinobot_msgs) JobStarted: {'identifier': 'arduinobot_msgs'}
+[0.018769] (arduinobot_controller) JobStarted: {'identifier': 'arduinobot_controller'}
+[0.026293] (arduinobot_description) JobStarted: {'identifier': 'arduinobot_description'}
+[0.040272] (arduinobot_msgs) JobProgress: {'identifier': 'arduinobot_msgs', 'progress': 'cmake'}
+[0.043130] (arduinobot_msgs) JobProgress: {'identifier': 'arduinobot_msgs', 'progress': 'build'}
+[0.044927] (arduinobot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/atul/arduinobot_ws/build/arduinobot_msgs', '--', '-j12', '-l12'], 'cwd': '/home/atul/arduinobot_ws/build/arduinobot_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'atul'), ('GIT_ASKPASS', '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/atul'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-62a8db2d-1878-4f56-bb8b-39b0da653c3e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'atul'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/878_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/home/atul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/w/Requried/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Program Files (x86)/cloudflared/:/mnt/c/Program Files/Tailscale/:/mnt/c/Program Files/WireGuard/:/mnt/c/Users/atula/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/atula/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/atula/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/atula/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/w/MSYS2/ucrt64/bin:/mnt/w/Nmap:/mnt/c/Users/atula/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-115d89c18a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/atul/arduinobot_ws/build/arduinobot_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.051107] (arduinobot_controller) JobProgress: {'identifier': 'arduinobot_controller', 'progress': 'cmake'}
+[0.052650] (arduinobot_controller) JobProgress: {'identifier': 'arduinobot_controller', 'progress': 'build'}
+[0.054639] (arduinobot_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/atul/arduinobot_ws/build/arduinobot_controller', '--', '-j12', '-l12'], 'cwd': '/home/atul/arduinobot_ws/build/arduinobot_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'atul'), ('GIT_ASKPASS', '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/atul'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-62a8db2d-1878-4f56-bb8b-39b0da653c3e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'atul'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/878_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/home/atul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/w/Requried/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Program Files (x86)/cloudflared/:/mnt/c/Program Files/Tailscale/:/mnt/c/Program Files/WireGuard/:/mnt/c/Users/atula/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/atula/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/atula/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/atula/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/w/MSYS2/ucrt64/bin:/mnt/w/Nmap:/mnt/c/Users/atula/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-115d89c18a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/atul/arduinobot_ws/build/arduinobot_controller'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.062512] (arduinobot_description) JobProgress: {'identifier': 'arduinobot_description', 'progress': 'cmake'}
+[0.064056] (arduinobot_description) JobProgress: {'identifier': 'arduinobot_description', 'progress': 'build'}
+[0.066788] (arduinobot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/atul/arduinobot_ws/build/arduinobot_description', '--', '-j12', '-l12'], 'cwd': '/home/atul/arduinobot_ws/build/arduinobot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'atul'), ('GIT_ASKPASS', '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/atul'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-62a8db2d-1878-4f56-bb8b-39b0da653c3e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'atul'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/878_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/home/atul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/w/Requried/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Program Files (x86)/cloudflared/:/mnt/c/Program Files/Tailscale/:/mnt/c/Program Files/WireGuard/:/mnt/c/Users/atula/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/atula/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/atula/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/atula/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/w/MSYS2/ucrt64/bin:/mnt/w/Nmap:/mnt/c/Users/atula/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-115d89c18a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/atul/arduinobot_ws/build/arduinobot_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099435] (-) TimerEvent: {}
+[0.146839] (arduinobot_description) CommandEnded: {'returncode': 0}
+[0.177395] (arduinobot_msgs) StdoutLine: {'line': b'[  3%] Built target arduinobot_msgs__cpp\n'}
+[0.184281] (arduinobot_description) JobProgress: {'identifier': 'arduinobot_description', 'progress': 'install'}
+[0.186117] (arduinobot_msgs) StdoutLine: {'line': b'[ 12%] Built target arduinobot_msgs__rosidl_generator_c\n'}
+[0.192053] (arduinobot_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_arduinobot_msgs\n'}
+[0.199849] (-) TimerEvent: {}
+[0.210365] (arduinobot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/atul/arduinobot_ws/build/arduinobot_description'], 'cwd': '/home/atul/arduinobot_ws/build/arduinobot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'atul'), ('GIT_ASKPASS', '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/atul'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-62a8db2d-1878-4f56-bb8b-39b0da653c3e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'atul'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/878_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/home/atul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/w/Requried/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Program Files (x86)/cloudflared/:/mnt/c/Program Files/Tailscale/:/mnt/c/Program Files/WireGuard/:/mnt/c/Users/atula/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/atula/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/atula/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/atula/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/w/MSYS2/ucrt64/bin:/mnt/w/Nmap:/mnt/c/Users/atula/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-115d89c18a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/atul/arduinobot_ws/build/arduinobot_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.214800] (arduinobot_controller) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_arduinobot_controller\n'}
+[0.230390] (arduinobot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.234618] (arduinobot_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arduinobot_msgs/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[0.234887] (arduinobot_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arduinobot_msgs/srv/detail/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[0.238246] (arduinobot_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[0.238761] (arduinobot_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.242443] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot.urdf.xacro\n'}
+[0.245350] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_gazebo.xacro\n'}
+[0.245644] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_ros2_control.xacro\n'}
+[0.245791] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/base_plate.STL\n'}
+[0.245905] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/basement.STL\n'}
+[0.246017] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/claw_support.STL\n'}
+[0.246128] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/forward_drive_arm.STL\n'}
+[0.246281] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL\n'}
+[0.246412] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/left_finger.STL\n'}
+[0.246604] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/link.STL\n'}
+[0.247922] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/pi_camera.STL\n'}
+[0.253148] (arduinobot_msgs) StdoutLine: {'line': b'[ 35%] Built target arduinobot_msgs__rosidl_typesupport_introspection_c\n'}
+[0.253849] (arduinobot_msgs) StdoutLine: {'line': b'[ 41%] Built target arduinobot_msgs__rosidl_typesupport_c\n'}
+[0.254131] (arduinobot_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arduinobot_msgs/srv/detail/add_two_ints__type_support_c.cpp.o\x1b[0m\n'}
+[0.254679] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/plate.STL\n'}
+[0.254938] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/right_finger.STL\n'}
+[0.255221] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/round_plate.STL\n'}
+[0.255739] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/servo_plate.STL\n'}
+[0.255909] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/triangular_link.STL\n'}
+[0.256345] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/vertical_drive_arm.STL\n'}
+[0.256479] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/display.launch.py\n'}
+[0.256583] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/gazebo.launch.py\n'}
+[0.257090] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/rviz/display.rviz\n'}
+[0.257313] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model-1_2.sdf\n'}
+[0.257405] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model-1_3.sdf\n'}
+[0.257490] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model-1_4.sdf\n'}
+[0.257807] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model.config\n'}
+[0.258100] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model.sdf\n'}
+[0.258704] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model-1_2.sdf\n'}
+[0.259382] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model-1_3.sdf\n'}
+[0.259636] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model-1_4.sdf\n'}
+[0.260054] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model.config\n'}
+[0.260230] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model.sdf\n'}
+[0.260394] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/package_run_dependencies/arduinobot_description\n'}
+[0.260539] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/parent_prefix_path/arduinobot_description\n'}
+[0.260672] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.sh\n'}
+[0.260799] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.dsv\n'}
+[0.260918] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.sh\n'}
+[0.261048] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.dsv\n'}
+[0.261163] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.bash\n'}
+[0.261266] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.sh\n'}
+[0.261365] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.zsh\n'}
+[0.261473] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.dsv\n'}
+[0.261568] (arduinobot_description) StdoutLine: {'line': b'-- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.dsv\n'}
+[0.281913] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/packages/arduinobot_description\n'}
+[0.282190] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig.cmake\n'}
+[0.282613] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig-version.cmake\n'}
+[0.282804] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.xml\n'}
+[0.286134] (arduinobot_description) CommandEnded: {'returncode': 0}
+[0.289503] (arduinobot_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/slider_control.dir/src/slider_control.cpp.o\x1b[0m\n'}
+[0.300117] (-) TimerEvent: {}
+[0.401110] (-) TimerEvent: {}
+[0.408103] (arduinobot_description) JobEnded: {'identifier': 'arduinobot_description', 'rc': 0}
+[0.501322] (-) TimerEvent: {}
+[0.602298] (-) TimerEvent: {}
+[0.703803] (-) TimerEvent: {}
+[0.804427] (-) TimerEvent: {}
+[0.895945] (arduinobot_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.897765] (arduinobot_msgs) StdoutLine: {'line': b'writing arduinobot_msgs.egg-info/PKG-INFO\n'}
+[0.898248] (arduinobot_msgs) StdoutLine: {'line': b'writing dependency_links to arduinobot_msgs.egg-info/dependency_links.txt\n'}
+[0.900365] (arduinobot_msgs) StdoutLine: {'line': b'writing top-level names to arduinobot_msgs.egg-info/top_level.txt\n'}
+[0.905570] (-) TimerEvent: {}
+[0.914954] (arduinobot_msgs) StdoutLine: {'line': b"reading manifest file 'arduinobot_msgs.egg-info/SOURCES.txt'\n"}
+[0.917487] (arduinobot_msgs) StdoutLine: {'line': b"writing manifest file 'arduinobot_msgs.egg-info/SOURCES.txt'\n"}
+[0.923781] (arduinobot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[0.925993] (arduinobot_controller) StdoutLine: {'line': b'writing arduinobot_controller.egg-info/PKG-INFO\n'}
+[0.926728] (arduinobot_controller) StdoutLine: {'line': b'writing dependency_links to arduinobot_controller.egg-info/dependency_links.txt\n'}
+[0.927338] (arduinobot_controller) StdoutLine: {'line': b'writing top-level names to arduinobot_controller.egg-info/top_level.txt\n'}
+[0.936902] (arduinobot_controller) StdoutLine: {'line': b"reading manifest file 'arduinobot_controller.egg-info/SOURCES.txt'\n"}
+[0.943050] (arduinobot_controller) StdoutLine: {'line': b"writing manifest file 'arduinobot_controller.egg-info/SOURCES.txt'\n"}
+[1.002162] (arduinobot_msgs) StdoutLine: {'line': b'[ 45%] Built target ament_cmake_python_build_arduinobot_msgs_egg\n'}
+[1.005760] (-) TimerEvent: {}
+[1.008253] (arduinobot_controller) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_build_arduinobot_controller_egg\n'}
+[1.106005] (-) TimerEvent: {}
+[1.162723] (arduinobot_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libarduinobot_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.206363] (-) TimerEvent: {}
+[1.307006] (-) TimerEvent: {}
+[1.361635] (arduinobot_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libarduinobot_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.407180] (-) TimerEvent: {}
+[1.416051] (arduinobot_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libarduinobot_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.507357] (-) TimerEvent: {}
+[1.552612] (arduinobot_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libarduinobot_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.607558] (-) TimerEvent: {}
+[1.677944] (arduinobot_msgs) StdoutLine: {'line': b'[ 61%] Built target arduinobot_msgs__rosidl_typesupport_cpp\n'}
+[1.707753] (-) TimerEvent: {}
+[1.808381] (-) TimerEvent: {}
+[1.821309] (arduinobot_msgs) StdoutLine: {'line': b'[ 64%] Built target arduinobot_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.841328] (arduinobot_msgs) StdoutLine: {'line': b'[ 67%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.908559] (-) TimerEvent: {}
+[1.925952] (arduinobot_msgs) StdoutLine: {'line': b'[ 70%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.960764] (arduinobot_msgs) StdoutLine: {'line': b'[ 70%] Built target arduinobot_msgs\n'}
+[1.995171] (arduinobot_msgs) StdoutLine: {'line': b'[ 74%] Built target arduinobot_msgs__py\n'}
+[2.008820] (-) TimerEvent: {}
+[2.038174] (arduinobot_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/arduinobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/arduinobot_msgs/srv/_add_two_ints_s.c.o\x1b[0m\n'}
+[2.109019] (-) TimerEvent: {}
+[2.209846] (-) TimerEvent: {}
+[2.310613] (-) TimerEvent: {}
+[2.368025] (arduinobot_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/arduinobot_msgs/libarduinobot_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[2.410742] (-) TimerEvent: {}
+[2.511281] (-) TimerEvent: {}
+[2.612130] (-) TimerEvent: {}
+[2.645011] (arduinobot_msgs) StdoutLine: {'line': b'[ 80%] Built target arduinobot_msgs__rosidl_generator_py\n'}
+[2.686464] (arduinobot_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.687178] (arduinobot_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/arduinobot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.687829] (arduinobot_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/arduinobot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.712303] (-) TimerEvent: {}
+[2.812971] (-) TimerEvent: {}
+[2.874664] (arduinobot_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.877331] (arduinobot_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.881252] (arduinobot_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.913136] (-) TimerEvent: {}
+[3.013787] (-) TimerEvent: {}
+[3.114398] (-) TimerEvent: {}
+[3.169781] (arduinobot_msgs) StdoutLine: {'line': b'[100%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.182345] (arduinobot_msgs) StdoutLine: {'line': b'[100%] Built target arduinobot_msgs__rosidl_typesupport_c__pyext\n'}
+[3.182945] (arduinobot_msgs) StdoutLine: {'line': b'[100%] Built target arduinobot_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.197429] (arduinobot_msgs) CommandEnded: {'returncode': 0}
+[3.214587] (-) TimerEvent: {}
+[3.309925] (arduinobot_msgs) JobProgress: {'identifier': 'arduinobot_msgs', 'progress': 'install'}
+[3.310595] (arduinobot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/atul/arduinobot_ws/build/arduinobot_msgs'], 'cwd': '/home/atul/arduinobot_ws/build/arduinobot_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'atul'), ('GIT_ASKPASS', '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/atul'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-62a8db2d-1878-4f56-bb8b-39b0da653c3e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'atul'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/878_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/home/atul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/w/Requried/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Program Files (x86)/cloudflared/:/mnt/c/Program Files/Tailscale/:/mnt/c/Program Files/WireGuard/:/mnt/c/Users/atula/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/atula/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/atula/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/atula/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/w/MSYS2/ucrt64/bin:/mnt/w/Nmap:/mnt/c/Users/atula/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-115d89c18a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/atul/arduinobot_ws/build/arduinobot_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.314882] (-) TimerEvent: {}
+[3.321380] (arduinobot_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.323415] (arduinobot_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.323799] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/ament_index/resource_index/rosidl_interfaces/arduinobot_msgs\n'}
+[3.324394] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.325049] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/add_two_ints.h\n'}
+[3.325839] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__functions.h\n'}
+[3.326878] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__struct.h\n'}
+[3.327339] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__type_support.h\n'}
+[3.327487] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/library_path.sh\n'}
+[3.327741] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/library_path.dsv\n'}
+[3.328340] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.328713] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[3.328979] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/add_two_ints.hpp\n'}
+[3.329802] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__builder.hpp\n'}
+[3.329970] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__struct.hpp\n'}
+[3.330087] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__traits.hpp\n'}
+[3.330506] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.330956] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.331354] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.331826] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h\n'}
+[3.332281] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.332774] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/pythonpath.sh\n'}
+[3.332979] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/pythonpath.dsv\n'}
+[3.333775] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.334013] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.334195] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.334926] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.335869] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/__init__.py\n'}
+[3.336441] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[3.338495] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.338929] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.339303] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.339609] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.339847] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.340938] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/libarduinobot_msgs__rosidl_generator_py.so\n'}
+[3.341217] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/srv/__init__.py\n'}
+[3.341398] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/srv/_add_two_ints.py\n'}
+[3.341553] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/srv/_add_two_ints_s.c\n'}
+[3.341886] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.342251] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.342366] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.342441] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/srv/AddTwoInts.idl\n'}
+[3.342519] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/srv/AddTwoInts.srv\n'}
+[3.342862] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/srv/AddTwoInts_Request.msg\n'}
+[3.343038] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/srv/AddTwoInts_Response.msg\n'}
+[3.344402] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/ament_index/resource_index/package_run_dependencies/arduinobot_msgs\n'}
+[3.344909] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/ament_index/resource_index/parent_prefix_path/arduinobot_msgs\n'}
+[3.345315] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/ament_prefix_path.sh\n'}
+[3.345677] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/ament_prefix_path.dsv\n'}
+[3.345849] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/path.sh\n'}
+[3.345928] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/path.dsv\n'}
+[3.345994] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/local_setup.bash\n'}
+[3.346056] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/local_setup.sh\n'}
+[3.346116] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/local_setup.zsh\n'}
+[3.346175] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/local_setup.dsv\n'}
+[3.346516] (arduinobot_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/package.dsv\n'}
+[3.361557] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/ament_index/resource_index/packages/arduinobot_msgs\n'}
+[3.362238] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[3.363511] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.363999] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.364150] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.364436] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.364804] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.365205] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.365349] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgsConfig.cmake\n'}
+[3.365448] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgsConfig-version.cmake\n'}
+[3.365539] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/package.xml\n'}
+[3.366780] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_generator_c.so\n'}
+[3.367897] (arduinobot_msgs) StdoutLine: {'line': b'-- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.368251] (arduinobot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.369546] (arduinobot_msgs) StdoutLine: {'line': b'-- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.370055] (arduinobot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.370976] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_introspection_c.so\n'}
+[3.371828] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_c.so\n'}
+[3.373293] (arduinobot_msgs) StdoutLine: {'line': b'-- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.373760] (arduinobot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.374693] (arduinobot_msgs) StdoutLine: {'line': b'-- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_cpp.so\n'}
+[3.375103] (arduinobot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[3.415088] (-) TimerEvent: {}
+[3.449154] (arduinobot_msgs) StdoutLine: {'line': b"Listing '/home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs'...\n"}
+[3.449479] (arduinobot_msgs) StdoutLine: {'line': b"Compiling '/home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/__init__.py'...\n"}
+[3.449604] (arduinobot_msgs) StdoutLine: {'line': b"Listing '/home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/srv'...\n"}
+[3.449712] (arduinobot_msgs) StdoutLine: {'line': b"Compiling '/home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/srv/__init__.py'...\n"}
+[3.449819] (arduinobot_msgs) StdoutLine: {'line': b"Compiling '/home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages/arduinobot_msgs/srv/_add_two_ints.py'...\n"}
+[3.461280] (arduinobot_msgs) StdoutLine: {'line': b'-- Installing: /home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_generator_py.so\n'}
+[3.463098] (arduinobot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_generator_py.so" to ""\n'}
+[3.465355] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_generator_cExport.cmake\n'}
+[3.466433] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.467439] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.467913] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.468988] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_generator_cppExport.cmake\n'}
+[3.470234] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.470698] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.472908] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.473964] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.475627] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgs__rosidl_typesupport_cExport.cmake\n'}
+[3.476061] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.477436] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.477713] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.479710] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[3.479967] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.481154] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_generator_pyExport.cmake\n'}
+[3.481670] (arduinobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.484530] (arduinobot_msgs) CommandEnded: {'returncode': 0}
+[3.515357] (-) TimerEvent: {}
+[3.616743] (-) TimerEvent: {}
+[3.653197] (arduinobot_msgs) JobEnded: {'identifier': 'arduinobot_msgs', 'rc': 0}
+[3.657798] (arduinobot_py_examples) JobStarted: {'identifier': 'arduinobot_py_examples'}
+[3.716988] (-) TimerEvent: {}
+[3.817707] (-) TimerEvent: {}
+[3.918404] (-) TimerEvent: {}
+[4.019321] (-) TimerEvent: {}
+[4.119939] (-) TimerEvent: {}
+[4.220656] (-) TimerEvent: {}
+[4.321301] (-) TimerEvent: {}
+[4.422097] (-) TimerEvent: {}
+[4.522901] (-) TimerEvent: {}
+[4.623458] (-) TimerEvent: {}
+[4.724029] (-) TimerEvent: {}
+[4.824537] (-) TimerEvent: {}
+[4.925417] (-) TimerEvent: {}
+[5.026044] (-) TimerEvent: {}
+[5.126584] (-) TimerEvent: {}
+[5.227084] (-) TimerEvent: {}
+[5.327781] (-) TimerEvent: {}
+[5.428253] (-) TimerEvent: {}
+[5.528741] (-) TimerEvent: {}
+[5.629284] (-) TimerEvent: {}
+[5.729922] (-) TimerEvent: {}
+[5.830374] (-) TimerEvent: {}
+[5.930929] (-) TimerEvent: {}
+[6.010239] (arduinobot_py_examples) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/arduinobot_py_examples', 'build', '--build-base', '/home/atul/arduinobot_ws/build/arduinobot_py_examples/build', 'install', '--record', '/home/atul/arduinobot_ws/build/arduinobot_py_examples/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/atul/arduinobot_ws/src/arduinobot_py_examples', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'atul', 'GIT_ASKPASS': '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/atul/arduinobot_ws/install/arduinobot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/atul', 'TERM_PROGRAM_VERSION': '1.93.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-62a8db2d-1878-4f56-bb8b-39b0da653c3e.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', '_colcon_cd_root': '/opt/ros/foxy/', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'atul', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/878_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/home/atul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/w/Requried/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Program Files (x86)/cloudflared/:/mnt/c/Program Files/Tailscale/:/mnt/c/Program Files/WireGuard/:/mnt/c/Users/atula/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/atula/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/atula/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/atula/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/w/MSYS2/ucrt64/bin:/mnt/w/Nmap:/mnt/c/Users/atula/AppData/Roaming/npm:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-115d89c18a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/atul/arduinobot_ws/install/arduinobot_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/atul/arduinobot_ws/build/arduinobot_py_examples', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/atul/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:/home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:', 'CMAKE_PREFIX_PATH': '/home/atul/arduinobot_ws/install/arduinobot_msgs'}, 'shell': False}
+[6.031364] (-) TimerEvent: {}
+[6.131904] (-) TimerEvent: {}
+[6.232555] (-) TimerEvent: {}
+[6.333131] (-) TimerEvent: {}
+[6.359359] (arduinobot_py_examples) StdoutLine: {'line': b'running egg_info\n'}
+[6.360993] (arduinobot_py_examples) StdoutLine: {'line': b'writing ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/PKG-INFO\n'}
+[6.361567] (arduinobot_py_examples) StdoutLine: {'line': b'writing dependency_links to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/dependency_links.txt\n'}
+[6.362117] (arduinobot_py_examples) StdoutLine: {'line': b'writing entry points to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/entry_points.txt\n'}
+[6.362751] (arduinobot_py_examples) StdoutLine: {'line': b'writing requirements to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/requires.txt\n'}
+[6.362981] (arduinobot_py_examples) StdoutLine: {'line': b'writing top-level names to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt\n'}
+[6.367109] (arduinobot_py_examples) StdoutLine: {'line': b"reading manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'\n"}
+[6.368448] (arduinobot_py_examples) StdoutLine: {'line': b"writing manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'\n"}
+[6.369146] (arduinobot_py_examples) StdoutLine: {'line': b'running build\n'}
+[6.369450] (arduinobot_py_examples) StdoutLine: {'line': b'running build_py\n'}
+[6.370185] (arduinobot_py_examples) StdoutLine: {'line': b'running install\n'}
+[6.370875] (arduinobot_py_examples) StdoutLine: {'line': b'running install_lib\n'}
+[6.373046] (arduinobot_py_examples) StdoutLine: {'line': b'running install_data\n'}
+[6.373619] (arduinobot_py_examples) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.375722] (arduinobot_py_examples) StdoutLine: {'line': b"removing '/home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.376337] (arduinobot_py_examples) StdoutLine: {'line': b'Copying ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info to /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples-0.0.0-py3.10.egg-info\n'}
+[6.377630] (arduinobot_py_examples) StdoutLine: {'line': b'running install_scripts\n'}
+[6.408003] (arduinobot_py_examples) StdoutLine: {'line': b'Installing simple_parameter script to /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples\n'}
+[6.408773] (arduinobot_py_examples) StdoutLine: {'line': b'Installing simple_publisher script to /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples\n'}
+[6.408977] (arduinobot_py_examples) StdoutLine: {'line': b'Installing simple_service_client script to /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples\n'}
+[6.409140] (arduinobot_py_examples) StdoutLine: {'line': b'Installing simple_service_server script to /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples\n'}
+[6.409534] (arduinobot_py_examples) StdoutLine: {'line': b'Installing simple_subscriber script to /home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples\n'}
+[6.409955] (arduinobot_py_examples) StdoutLine: {'line': b"writing list of installed files to '/home/atul/arduinobot_ws/build/arduinobot_py_examples/install.log'\n"}
+[6.433422] (-) TimerEvent: {}
+[6.449324] (arduinobot_py_examples) CommandEnded: {'returncode': 0}
+[6.469429] (arduinobot_py_examples) JobEnded: {'identifier': 'arduinobot_py_examples', 'rc': 0}
+[6.533784] (-) TimerEvent: {}
+[6.634395] (-) TimerEvent: {}
+[6.735134] (-) TimerEvent: {}
+[6.835839] (-) TimerEvent: {}
+[6.936471] (-) TimerEvent: {}
+[7.037293] (-) TimerEvent: {}
+[7.137820] (-) TimerEvent: {}
+[7.238394] (-) TimerEvent: {}
+[7.339082] (-) TimerEvent: {}
+[7.439818] (-) TimerEvent: {}
+[7.540588] (-) TimerEvent: {}
+[7.641349] (-) TimerEvent: {}
+[7.741963] (-) TimerEvent: {}
+[7.842922] (-) TimerEvent: {}
+[7.943776] (-) TimerEvent: {}
+[8.044268] (-) TimerEvent: {}
+[8.144961] (-) TimerEvent: {}
+[8.245675] (-) TimerEvent: {}
+[8.346696] (-) TimerEvent: {}
+[8.447516] (-) TimerEvent: {}
+[8.548096] (-) TimerEvent: {}
+[8.648802] (-) TimerEvent: {}
+[8.749457] (-) TimerEvent: {}
+[8.850179] (-) TimerEvent: {}
+[8.950831] (-) TimerEvent: {}
+[9.051445] (-) TimerEvent: {}
+[9.152374] (-) TimerEvent: {}
+[9.253247] (-) TimerEvent: {}
+[9.353760] (-) TimerEvent: {}
+[9.454406] (-) TimerEvent: {}
+[9.555114] (-) TimerEvent: {}
+[9.655889] (-) TimerEvent: {}
+[9.756555] (-) TimerEvent: {}
+[9.857268] (-) TimerEvent: {}
+[9.957805] (-) TimerEvent: {}
+[10.058410] (-) TimerEvent: {}
+[10.158937] (-) TimerEvent: {}
+[10.259596] (-) TimerEvent: {}
+[10.360216] (-) TimerEvent: {}
+[10.460810] (-) TimerEvent: {}
+[10.561470] (-) TimerEvent: {}
+[10.662312] (-) TimerEvent: {}
+[10.763019] (-) TimerEvent: {}
+[10.863842] (-) TimerEvent: {}
+[10.964725] (-) TimerEvent: {}
+[11.065236] (-) TimerEvent: {}
+[11.165766] (-) TimerEvent: {}
+[11.266480] (-) TimerEvent: {}
+[11.367257] (-) TimerEvent: {}
+[11.467967] (-) TimerEvent: {}
+[11.568558] (-) TimerEvent: {}
+[11.669236] (-) TimerEvent: {}
+[11.769883] (-) TimerEvent: {}
+[11.870491] (-) TimerEvent: {}
+[11.971044] (-) TimerEvent: {}
+[12.071550] (-) TimerEvent: {}
+[12.172105] (-) TimerEvent: {}
+[12.272786] (-) TimerEvent: {}
+[12.373838] (-) TimerEvent: {}
+[12.474811] (-) TimerEvent: {}
+[12.575413] (-) TimerEvent: {}
+[12.676025] (-) TimerEvent: {}
+[12.776512] (-) TimerEvent: {}
+[12.877327] (-) TimerEvent: {}
+[12.977929] (-) TimerEvent: {}
+[13.078605] (-) TimerEvent: {}
+[13.179401] (-) TimerEvent: {}
+[13.280178] (-) TimerEvent: {}
+[13.380917] (-) TimerEvent: {}
+[13.481682] (-) TimerEvent: {}
+[13.582338] (-) TimerEvent: {}
+[13.682886] (-) TimerEvent: {}
+[13.783500] (-) TimerEvent: {}
+[13.884045] (-) TimerEvent: {}
+[13.984723] (-) TimerEvent: {}
+[14.085649] (-) TimerEvent: {}
+[14.186309] (-) TimerEvent: {}
+[14.287002] (-) TimerEvent: {}
+[14.387721] (-) TimerEvent: {}
+[14.488366] (-) TimerEvent: {}
+[14.589086] (-) TimerEvent: {}
+[14.689772] (-) TimerEvent: {}
+[14.790879] (-) TimerEvent: {}
+[14.891749] (-) TimerEvent: {}
+[14.992570] (-) TimerEvent: {}
+[15.093367] (-) TimerEvent: {}
+[15.193871] (-) TimerEvent: {}
+[15.294565] (-) TimerEvent: {}
+[15.395122] (-) TimerEvent: {}
+[15.495699] (-) TimerEvent: {}
+[15.596480] (-) TimerEvent: {}
+[15.697325] (-) TimerEvent: {}
+[15.797934] (-) TimerEvent: {}
+[15.898515] (-) TimerEvent: {}
+[15.999369] (-) TimerEvent: {}
+[16.100184] (-) TimerEvent: {}
+[16.200936] (-) TimerEvent: {}
+[16.301758] (-) TimerEvent: {}
+[16.402307] (-) TimerEvent: {}
+[16.502825] (-) TimerEvent: {}
+[16.603370] (-) TimerEvent: {}
+[16.703882] (-) TimerEvent: {}
+[16.804474] (-) TimerEvent: {}
+[16.904995] (-) TimerEvent: {}
+[17.005559] (-) TimerEvent: {}
+[17.106139] (-) TimerEvent: {}
+[17.206620] (-) TimerEvent: {}
+[17.307493] (-) TimerEvent: {}
+[17.408558] (-) TimerEvent: {}
+[17.509180] (-) TimerEvent: {}
+[17.609912] (-) TimerEvent: {}
+[17.710517] (-) TimerEvent: {}
+[17.811214] (-) TimerEvent: {}
+[17.911835] (-) TimerEvent: {}
+[18.012389] (-) TimerEvent: {}
+[18.113040] (-) TimerEvent: {}
+[18.213713] (-) TimerEvent: {}
+[18.314344] (-) TimerEvent: {}
+[18.414802] (-) TimerEvent: {}
+[18.515276] (-) TimerEvent: {}
+[18.615778] (-) TimerEvent: {}
+[18.636174] (arduinobot_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable slider_control\x1b[0m\n'}
+[18.716075] (-) TimerEvent: {}
+[18.816973] (-) TimerEvent: {}
+[18.917527] (-) TimerEvent: {}
+[19.018612] (-) TimerEvent: {}
+[19.119402] (-) TimerEvent: {}
+[19.220113] (-) TimerEvent: {}
+[19.320837] (-) TimerEvent: {}
+[19.421426] (-) TimerEvent: {}
+[19.521952] (-) TimerEvent: {}
+[19.622610] (-) TimerEvent: {}
+[19.723424] (-) TimerEvent: {}
+[19.778619] (arduinobot_controller) StdoutLine: {'line': b'[100%] Built target slider_control\n'}
+[19.798730] (arduinobot_controller) CommandEnded: {'returncode': 0}
+[19.823722] (-) TimerEvent: {}
+[19.859325] (arduinobot_controller) JobProgress: {'identifier': 'arduinobot_controller', 'progress': 'install'}
+[19.860744] (arduinobot_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/atul/arduinobot_ws/build/arduinobot_controller'], 'cwd': '/home/atul/arduinobot_ws/build/arduinobot_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'atul'), ('GIT_ASKPASS', '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/atul'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-62a8db2d-1878-4f56-bb8b-39b0da653c3e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'atul'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/878_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/atul/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/home/atul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/w/Requried/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Program Files (x86)/cloudflared/:/mnt/c/Program Files/Tailscale/:/mnt/c/Program Files/WireGuard/:/mnt/c/Users/atula/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/atula/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/atula/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/atula/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/w/MSYS2/ucrt64/bin:/mnt/w/Nmap:/mnt/c/Users/atula/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-115d89c18a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/atul/arduinobot_ws/build/arduinobot_controller'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[19.870883] (arduinobot_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.874097] (arduinobot_controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[19.874893] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/pythonpath.sh\n'}
+[19.875428] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/pythonpath.dsv\n'}
+[19.875803] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[19.876675] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[19.877006] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[19.877440] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[19.878152] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller/__init__.py\n'}
+[19.878579] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller/slider_control.py\n'}
+[19.879019] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/lib/arduinobot_controller/slider_control\n'}
+[19.879522] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch/controller.launch.py\n'}
+[19.879930] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch/slider_controller.launch.py\n'}
+[19.880135] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/config/arduinobot_controllers.yaml\n'}
+[19.880308] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/lib/arduinobot_controller/slider_control.py\n'}
+[19.881034] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/package_run_dependencies/arduinobot_controller\n'}
+[19.881273] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/parent_prefix_path/arduinobot_controller\n'}
+[19.882330] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.sh\n'}
+[19.882596] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.dsv\n'}
+[19.882999] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/path.sh\n'}
+[19.883242] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/path.dsv\n'}
+[19.883390] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.bash\n'}
+[19.883520] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.sh\n'}
+[19.883636] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.zsh\n'}
+[19.883748] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.dsv\n'}
+[19.883964] (arduinobot_controller) StdoutLine: {'line': b'-- Symlinking: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.dsv\n'}
+[19.895327] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/packages/arduinobot_controller\n'}
+[19.895881] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig.cmake\n'}
+[19.896040] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig-version.cmake\n'}
+[19.896496] (arduinobot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.xml\n'}
+[19.923890] (-) TimerEvent: {}
+[19.947941] (arduinobot_controller) StdoutLine: {'line': b"Listing '/home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller'...\n"}
+[19.948173] (arduinobot_controller) StdoutLine: {'line': b"Compiling '/home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller/__init__.py'...\n"}
+[19.948259] (arduinobot_controller) StdoutLine: {'line': b"Compiling '/home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller/slider_control.py'...\n"}
+[19.958730] (arduinobot_controller) CommandEnded: {'returncode': 0}
+[20.017756] (arduinobot_controller) JobEnded: {'identifier': 'arduinobot_controller', 'rc': 0}
+[20.020635] (-) EventReactorShutdown: {}
