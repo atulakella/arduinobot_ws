@@ -1,0 +1,51 @@
+[0.047s] Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/atul/arduinobot_ws/src/arduinobot_controller -DCMAKE_INSTALL_PREFIX=/home/atul/arduinobot_ws/install/arduinobot_controller
+[0.468s] -- The C compiler identification is GNU 11.4.0
+[1.451s] -- The CXX compiler identification is GNU 11.4.0
+[2.238s] -- Detecting C compiler ABI info
+[2.501s] -- Detecting C compiler ABI info - done
+[2.513s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.516s] -- Detecting C compile features
+[2.517s] -- Detecting C compile features - done
+[2.523s] -- Detecting CXX compiler ABI info
+[2.829s] -- Detecting CXX compiler ABI info - done
+[2.842s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.843s] -- Detecting CXX compile features
+[2.843s] -- Detecting CXX compile features - done
+[2.849s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.116s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.278s] -- Found trajectory_msgs: 4.2.3 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[3.801s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.815s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.840s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.888s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.937s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.335s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.506s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[4.691s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.699s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[12.343s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[16.931s] -- Found FastRTPS: /opt/ros/humble/include  
+[30.004s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[30.039s] -- Looking for pthread.h
+[30.504s] -- Looking for pthread.h - found
+[30.504s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[30.830s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[30.832s] -- Found Threads: TRUE  
+[31.094s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[31.351s] -- Configuring done
+[31.370s] -- Generating done
+[31.373s] -- Build files have been written to: /home/atul/arduinobot_ws/build/arduinobot_controller
+[31.405s] Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/atul/arduinobot_ws/src/arduinobot_controller -DCMAKE_INSTALL_PREFIX=/home/atul/arduinobot_ws/install/arduinobot_controller
+[31.408s] Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/atul/arduinobot_ws/build/arduinobot_controller -- -j12 -l12
+[31.465s] [ 50%] [32mBuilding CXX object CMakeFiles/slider_control.dir/src/slider_control.cpp.o[0m
+[31.477s] [ 50%] Built target ament_cmake_python_copy_arduinobot_controller
+[31.789s] running egg_info
+[31.791s] creating arduinobot_controller.egg-info
+[31.792s] writing arduinobot_controller.egg-info/PKG-INFO
+[31.792s] writing dependency_links to arduinobot_controller.egg-info/dependency_links.txt
+[31.793s] writing top-level names to arduinobot_controller.egg-info/top_level.txt
+[31.793s] writing manifest file 'arduinobot_controller.egg-info/SOURCES.txt'
+[31.795s] reading manifest file 'arduinobot_controller.egg-info/SOURCES.txt'
+[31.797s] writing manifest file 'arduinobot_controller.egg-info/SOURCES.txt'
+[31.833s] [ 50%] Built target ament_cmake_python_build_arduinobot_controller_egg
+[46.202s] [100%] [32m[1mLinking CXX executable slider_control[0m

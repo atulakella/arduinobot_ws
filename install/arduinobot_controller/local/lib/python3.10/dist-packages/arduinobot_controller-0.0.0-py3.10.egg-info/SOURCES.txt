@@ -1,1 +1,0 @@
-/home/atul/arduinobot_ws/build/arduinobot_controller/ament_cmake_python/arduinobot_controller/arduinobot_controller.egg-info/SOURCES.txt

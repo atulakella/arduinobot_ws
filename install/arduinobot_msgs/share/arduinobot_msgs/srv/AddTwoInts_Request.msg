@@ -1,1 +1,3 @@
-/home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/srv/AddTwoInts_Request.msg
+# Request
+int64 a
+int64 b

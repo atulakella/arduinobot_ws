@@ -17,6 +17,10 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs/srv/__init__.py" "/home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs/srv/_add_two_ints.py" "/home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs/srv/_add_two_ints_s.c" "/home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs/srv/_euler_to_quaternion.py" "/home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs/srv/_euler_to_quaternion_s.c" "/home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs/srv/_quaternion_to_euler.py" "/home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs/srv/_quaternion_to_euler_s.c" "/home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

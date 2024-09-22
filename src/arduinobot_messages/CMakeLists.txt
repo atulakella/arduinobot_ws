@@ -19,6 +19,8 @@ if(BUILD_TESTING)
   # comment the line when a copyright and license is added to all source files
   rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/AddTwoInts.srv"
+  "srv/EulerToQuaternion.srv"
+  "srv/QuaternionToEuler.srv"
 )
   set(ament_cmake_copyright_FOUND TRUE)
   # the following line skips cpplint (only works in a git repo)

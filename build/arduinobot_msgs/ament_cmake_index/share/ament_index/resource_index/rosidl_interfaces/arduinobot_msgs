@@ -2,3 +2,11 @@ srv/AddTwoInts.idl
 srv/AddTwoInts.srv
 srv/AddTwoInts_Request.msg
 srv/AddTwoInts_Response.msg
+srv/EulerToQuaternion.idl
+srv/EulerToQuaternion.srv
+srv/EulerToQuaternion_Request.msg
+srv/EulerToQuaternion_Response.msg
+srv/QuaternionToEuler.idl
+srv/QuaternionToEuler.srv
+srv/QuaternionToEuler_Request.msg
+srv/QuaternionToEuler_Response.msg

@@ -204,4 +204,10 @@ CMakeFiles/arduinobot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_gene
  /home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_c/arduinobot_msgs/srv/detail/add_two_ints__type_support.h \
  /home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_c/arduinobot_msgs/msg/rosidl_generator_c__visibility_control.h \
  /home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_c/arduinobot_msgs/srv/detail/add_two_ints__struct.h \
- /home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_c/arduinobot_msgs/srv/detail/add_two_ints__functions.h
+ /home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_c/arduinobot_msgs/srv/detail/add_two_ints__functions.h \
+ /home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_c/arduinobot_msgs/srv/detail/euler_to_quaternion__type_support.h \
+ /home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_c/arduinobot_msgs/srv/detail/euler_to_quaternion__struct.h \
+ /home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_c/arduinobot_msgs/srv/detail/euler_to_quaternion__functions.h \
+ /home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_c/arduinobot_msgs/srv/detail/quaternion_to_euler__type_support.h \
+ /home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_c/arduinobot_msgs/srv/detail/quaternion_to_euler__struct.h \
+ /home/atul/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_c/arduinobot_msgs/srv/detail/quaternion_to_euler__functions.h

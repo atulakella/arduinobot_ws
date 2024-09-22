@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from arduinobot_msgs/srv/QuaternionToEuler.srv
+// generated code does not contain a copyright notice
+
+
+module arduinobot_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct QuaternionToEuler_Request {
+      double x;
+
+      double y;
+
+      double z;
+
+      double w;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct QuaternionToEuler_Response {
+      double roll;
+
+      double pitch;
+
+      double yaw;
+    };
+  };
+};

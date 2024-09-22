@@ -1,2 +1,0 @@
-Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_description': /usr/bin/cmake --build /home/atul/arduinobot_ws/build/arduinobot_description -- -j12 -l12
-Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_description' returned '2': /usr/bin/cmake --build /home/atul/arduinobot_ws/build/arduinobot_description -- -j12 -l12

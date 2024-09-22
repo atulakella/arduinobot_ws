@@ -1,4 +1,0 @@
-Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_msgs': /usr/bin/cmake --build /home/atul/arduinobot_ws/build/arduinobot_msgs -- -j20 -l20
-Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_msgs' returned '0': /usr/bin/cmake --build /home/atul/arduinobot_ws/build/arduinobot_msgs -- -j20 -l20
-Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_msgs': /usr/bin/cmake --install /home/atul/arduinobot_ws/build/arduinobot_msgs
-Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_msgs' returned '0': /usr/bin/cmake --install /home/atul/arduinobot_ws/build/arduinobot_msgs

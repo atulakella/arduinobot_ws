@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from arduinobot_msgs/srv/EulerToQuaternion.srv
+// generated code does not contain a copyright notice
+
+
+module arduinobot_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct EulerToQuaternion_Request {
+      double roll;
+
+      double pitch;
+
+      double yaw;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct EulerToQuaternion_Response {
+      double x;
+
+      double y;
+
+      double z;
+
+      double w;
+    };
+  };
+};
