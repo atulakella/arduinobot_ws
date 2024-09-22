@@ -49,3 +49,44 @@
 [31.797s] writing manifest file 'arduinobot_controller.egg-info/SOURCES.txt'
 [31.833s] [ 50%] Built target ament_cmake_python_build_arduinobot_controller_egg
 [46.202s] [100%] [32m[1mLinking CXX executable slider_control[0m
+[47.406s] [100%] Built target slider_control
+[47.420s] Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/atul/arduinobot_ws/build/arduinobot_controller -- -j12 -l12
+[47.457s] Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/atul/arduinobot_ws/build/arduinobot_controller
+[47.468s] -- Install configuration: ""
+[47.469s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/pythonpath.sh
+[47.469s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/pythonpath.dsv
+[47.471s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller-0.0.0-py3.10.egg-info
+[47.472s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[47.473s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[47.473s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[47.473s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[47.474s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller
+[47.474s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller/slider_control.py
+[47.474s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller/__init__.py
+[47.551s] Listing '/home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller'...
+[47.552s] Compiling '/home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller/__init__.py'...
+[47.552s] Compiling '/home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller/slider_control.py'...
+[47.560s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/lib/arduinobot_controller/slider_control
+[47.567s] -- Set runtime path of "/home/atul/arduinobot_ws/install/arduinobot_controller/lib/arduinobot_controller/slider_control" to ""
+[47.567s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch
+[47.567s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch/controller.launch.py
+[47.568s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch/slider_controller.launch.py
+[47.568s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/config
+[47.569s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/config/arduinobot_controllers.yaml
+[47.578s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/lib/arduinobot_controller/slider_control.py
+[47.579s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/package_run_dependencies/arduinobot_controller
+[47.580s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/parent_prefix_path/arduinobot_controller
+[47.580s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.sh
+[47.580s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.dsv
+[47.581s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/path.sh
+[47.581s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/path.dsv
+[47.581s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.bash
+[47.582s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.sh
+[47.582s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.zsh
+[47.583s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.dsv
+[47.583s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.dsv
+[47.583s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/packages/arduinobot_controller
+[47.583s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig.cmake
+[47.583s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig-version.cmake
+[47.584s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.xml
+[47.588s] Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/atul/arduinobot_ws/build/arduinobot_controller

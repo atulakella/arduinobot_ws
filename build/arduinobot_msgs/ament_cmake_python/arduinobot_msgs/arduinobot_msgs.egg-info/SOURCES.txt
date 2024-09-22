@@ -4,3 +4,7 @@ arduinobot_msgs.egg-info/PKG-INFO
 arduinobot_msgs.egg-info/SOURCES.txt
 arduinobot_msgs.egg-info/dependency_links.txt
 arduinobot_msgs.egg-info/top_level.txt
+arduinobot_msgs/srv/__init__.py
+arduinobot_msgs/srv/_add_two_ints.py
+arduinobot_msgs/srv/_euler_to_quaternion.py
+arduinobot_msgs/srv/_quaternion_to_euler.py

@@ -335,3 +335,62 @@
 [19.639s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atul/arduinobot_ws/install/arduinobot_py_examples/share/colcon-core/packages/arduinobot_py_examples)
 [32.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/atul/arduinobot_ws/src/arduinobot_controller -DCMAKE_INSTALL_PREFIX=/home/atul/arduinobot_ws/install/arduinobot_controller
 [32.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/atul/arduinobot_ws/build/arduinobot_controller -- -j12 -l12
+[48.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/atul/arduinobot_ws/build/arduinobot_controller -- -j12 -l12
+[48.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/atul/arduinobot_ws/build/arduinobot_controller
+[48.480s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_controller)
+[48.481s] Level 1:colcon.colcon_core.environment:checking '/home/atul/arduinobot_ws/install/arduinobot_controller' for CMake module files
+[48.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/atul/arduinobot_ws/build/arduinobot_controller
+[48.484s] Level 1:colcon.colcon_core.environment:checking '/home/atul/arduinobot_ws/install/arduinobot_controller' for CMake config files
+[48.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_controller', 'cmake_prefix_path')
+[48.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/hook/cmake_prefix_path.ps1'
+[48.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/hook/cmake_prefix_path.dsv'
+[48.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/hook/cmake_prefix_path.sh'
+[48.487s] Level 1:colcon.colcon_core.environment:checking '/home/atul/arduinobot_ws/install/arduinobot_controller/lib'
+[48.487s] Level 1:colcon.colcon_core.environment:checking '/home/atul/arduinobot_ws/install/arduinobot_controller/bin'
+[48.487s] Level 1:colcon.colcon_core.environment:checking '/home/atul/arduinobot_ws/install/arduinobot_controller/lib/pkgconfig/arduinobot_controller.pc'
+[48.488s] Level 1:colcon.colcon_core.environment:checking '/home/atul/arduinobot_ws/install/arduinobot_controller/lib/python3.10/site-packages'
+[48.488s] Level 1:colcon.colcon_core.environment:checking '/home/atul/arduinobot_ws/install/arduinobot_controller/bin'
+[48.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.ps1'
+[48.489s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.dsv'
+[48.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.sh'
+[48.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.bash'
+[48.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.zsh'
+[48.492s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atul/arduinobot_ws/install/arduinobot_controller/share/colcon-core/packages/arduinobot_controller)
+[48.532s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_controller)
+[48.533s] Level 1:colcon.colcon_core.environment:checking '/home/atul/arduinobot_ws/install/arduinobot_controller' for CMake module files
+[48.534s] Level 1:colcon.colcon_core.environment:checking '/home/atul/arduinobot_ws/install/arduinobot_controller' for CMake config files
+[48.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_controller', 'cmake_prefix_path')
+[48.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/hook/cmake_prefix_path.ps1'
+[48.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/hook/cmake_prefix_path.dsv'
+[48.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/hook/cmake_prefix_path.sh'
+[48.537s] Level 1:colcon.colcon_core.environment:checking '/home/atul/arduinobot_ws/install/arduinobot_controller/lib'
+[48.537s] Level 1:colcon.colcon_core.environment:checking '/home/atul/arduinobot_ws/install/arduinobot_controller/bin'
+[48.537s] Level 1:colcon.colcon_core.environment:checking '/home/atul/arduinobot_ws/install/arduinobot_controller/lib/pkgconfig/arduinobot_controller.pc'
+[48.538s] Level 1:colcon.colcon_core.environment:checking '/home/atul/arduinobot_ws/install/arduinobot_controller/lib/python3.10/site-packages'
+[48.538s] Level 1:colcon.colcon_core.environment:checking '/home/atul/arduinobot_ws/install/arduinobot_controller/bin'
+[48.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.ps1'
+[48.539s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.dsv'
+[48.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.sh'
+[48.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.bash'
+[48.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.zsh'
+[48.543s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atul/arduinobot_ws/install/arduinobot_controller/share/colcon-core/packages/arduinobot_controller)
+[48.544s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[48.546s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[48.547s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[48.548s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[48.633s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[48.634s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[48.634s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[48.634s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[48.634s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[48.634s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[48.635s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atul/arduinobot_ws/install/local_setup.ps1'
+[48.636s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/atul/arduinobot_ws/install/_local_setup_util_ps1.py'
+[48.637s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atul/arduinobot_ws/install/setup.ps1'
+[48.638s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atul/arduinobot_ws/install/local_setup.sh'
+[48.639s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/atul/arduinobot_ws/install/_local_setup_util_sh.py'
+[48.639s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atul/arduinobot_ws/install/setup.sh'
+[48.643s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atul/arduinobot_ws/install/local_setup.bash'
+[48.644s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atul/arduinobot_ws/install/setup.bash'
+[48.645s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atul/arduinobot_ws/install/local_setup.zsh'
+[48.646s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atul/arduinobot_ws/install/setup.zsh'
