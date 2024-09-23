@@ -43,6 +43,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_moveit" TYPE DIRECTORY FILES
+    "/home/atul/arduinobot_ws/src/arduinobot_moveit/launch"
+    "/home/atul/arduinobot_ws/src/arduinobot_moveit/config"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/atul/arduinobot_ws/build/arduinobot_moveit/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/arduinobot_moveit")
 endif()
 

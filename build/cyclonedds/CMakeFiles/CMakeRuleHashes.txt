@@ -1,0 +1,8 @@
+# Hashes of file build rules.
+21dfa29d3ebcbdee0e78ee464d57a0f3 src/idl/include/idl/attributes.h
+3644cc12c46ac0766a6d4b5be13d6e71 src/idl/include/idl/endian.h
+7520ba96571d2ebb52e12b1ddfa0006b src/idl/include/idl/md5.h
+1ae2c52b16f88da9f20a2ffae1068a6d src/idl/include/idl/misc.h
+7d71d896c9c8291c904b2a0c762dc33e src/idl/src/md5.c
+058f6a17a93ea76a2bbfe3fb99a50a83 src/tools/ddsperf/CMakeFiles/ddsperf_types_generate
+770198786794b00fdd1da43261a0a617 src/tools/ddsperf/ddsperf_types.c
