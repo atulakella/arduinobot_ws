@@ -1,0 +1,54 @@
+[0.043s] Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atul/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/atul/arduinobot_ws/src/arduinobot_moveit -DCMAKE_INSTALL_PREFIX=/home/atul/arduinobot_ws/install/arduinobot_moveit
+[0.444s] -- The C compiler identification is GNU 11.4.0
+[1.336s] -- The CXX compiler identification is GNU 11.4.0
+[2.466s] -- Detecting C compiler ABI info
+[2.701s] -- Detecting C compiler ABI info - done
+[2.713s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.715s] -- Detecting C compile features
+[2.716s] -- Detecting C compile features - done
+[2.722s] -- Detecting CXX compiler ABI info
+[3.026s] -- Detecting CXX compiler ABI info - done
+[3.036s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.036s] -- Detecting CXX compile features
+[3.037s] -- Detecting CXX compile features - done
+[3.063s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.260s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.399s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.523s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.524s] -- Added test 'lint_cmake' to check CMake code style
+[3.526s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.528s] -- Added test 'xmllint' to check XML markup files
+[3.533s] -- Configuring done
+[3.538s] -- Generating done
+[3.540s] -- Build files have been written to: /home/atul/arduinobot_ws/build/arduinobot_moveit
+[3.545s] Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atul/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/atul/arduinobot_ws/src/arduinobot_moveit -DCMAKE_INSTALL_PREFIX=/home/atul/arduinobot_ws/install/arduinobot_moveit
+[3.547s] Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atul/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/atul/arduinobot_ws/build/arduinobot_moveit -- -j12 -l12
+[3.587s] Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atul/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/atul/arduinobot_ws/build/arduinobot_moveit -- -j12 -l12
+[3.621s] Invoking command in '/home/atul/arduinobot_ws/build/arduinobot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atul/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/atul/arduinobot_ws/build/arduinobot_moveit
+[3.626s] -- Install configuration: ""
+[3.626s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/launch
+[3.628s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/launch/moveit.launch.py
+[3.628s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config
+[3.628s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/moveit.rviz
+[3.629s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/pilz_cartesian_limits.yaml
+[3.630s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/initial_positions.yaml
+[3.630s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/kinematics.yaml
+[3.631s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/joint_limits.yaml
+[3.631s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/arduinobot.srdf
+[3.632s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/moveit_controllers.yaml
+[3.633s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_moveit/share/ament_index/resource_index/package_run_dependencies/arduinobot_moveit
+[3.633s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_moveit/share/ament_index/resource_index/parent_prefix_path/arduinobot_moveit
+[3.633s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/environment/ament_prefix_path.sh
+[3.634s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/environment/ament_prefix_path.dsv
+[3.634s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/environment/path.sh
+[3.634s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/environment/path.dsv
+[3.634s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/local_setup.bash
+[3.635s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/local_setup.sh
+[3.635s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/local_setup.zsh
+[3.635s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/local_setup.dsv
+[3.636s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.dsv
+[3.636s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_moveit/share/ament_index/resource_index/packages/arduinobot_moveit
+[3.636s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/cmake/arduinobot_moveitConfig.cmake
+[3.636s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/cmake/arduinobot_moveitConfig-version.cmake
+[3.637s] -- Installing: /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.xml
+[3.639s] Invoked command in '/home/atul/arduinobot_ws/build/arduinobot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atul/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/atul/arduinobot_ws/build/arduinobot_moveit

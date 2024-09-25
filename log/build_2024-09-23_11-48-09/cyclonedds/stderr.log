@@ -1,4 +1,0 @@
-../../../bin/idlc: symbol lookup error: ../../../bin/idlc: undefined symbol: generate_type_meta_ser
-gmake[2]: *** [src/tools/ddsperf/CMakeFiles/ddsperf_types_generate.dir/build.make:76: src/tools/ddsperf/ddsperf_types.c] Error 127
-gmake[1]: *** [CMakeFiles/Makefile2:553: src/tools/ddsperf/CMakeFiles/ddsperf_types_generate.dir/all] Error 2
-gmake: *** [Makefile:156: all] Error 2
