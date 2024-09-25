@@ -1,4 +1,5 @@
 /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/launch/moveit.launch.py
+/home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/moveit.rviz
 /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/pilz_cartesian_limits.yaml
 /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/initial_positions.yaml
 /home/atul/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/kinematics.yaml
