@@ -1,0 +1,19 @@
+{
+    "ros.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/atul/arduinobot_ws/install/arduinobot_utils/local/lib/python3.10/dist-packages",
+        "/home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages",
+        "/home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages",
+        "/home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/atul/arduinobot_ws/install/arduinobot_utils/local/lib/python3.10/dist-packages",
+        "/home/atul/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages",
+        "/home/atul/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages",
+        "/home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
