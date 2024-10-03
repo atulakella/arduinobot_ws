@@ -241,6 +241,9 @@ SITE:STRING=jmd
 //Path to a library.
 _lib:FILEPATH=/home/atul/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_fastrtps_cpp.so
 
+//The directory containing a CMake configuration file for action_msgs.
+action_msgs_DIR:PATH=/opt/ros/humble/share/action_msgs/cmake
+
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/humble/share/ament_cmake/cmake
 
@@ -337,6 +340,9 @@ arduinobot_utils_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 arduinobot_utils_SOURCE_DIR:STATIC=/home/atul/arduinobot_ws/src/arduinobot_utils
 
+//The directory containing a CMake configuration file for builtin_interfaces.
+builtin_interfaces_DIR:PATH=/opt/ros/humble/share/builtin_interfaces/cmake
+
 //The directory containing a CMake configuration file for fastcdr.
 fastcdr_DIR:PATH=/opt/ros/humble/lib/cmake/fastcdr
 
@@ -360,6 +366,9 @@ rosidl_adapter_DIR:PATH=/opt/ros/humble/share/rosidl_adapter/cmake
 
 //The directory containing a CMake configuration file for rosidl_cmake.
 rosidl_cmake_DIR:PATH=/opt/ros/humble/share/rosidl_cmake/cmake
+
+//The directory containing a CMake configuration file for rosidl_default_runtime.
+rosidl_default_runtime_DIR:PATH=/opt/ros/humble/share/rosidl_default_runtime/cmake
 
 //The directory containing a CMake configuration file for rosidl_generator_c.
 rosidl_generator_c_DIR:PATH=/opt/ros/humble/share/rosidl_generator_c/cmake
@@ -393,6 +402,9 @@ rosidl_typesupport_introspection_c_DIR:PATH=/opt/ros/humble/share/rosidl_typesup
 
 //The directory containing a CMake configuration file for rosidl_typesupport_introspection_cpp.
 rosidl_typesupport_introspection_cpp_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/cmake
+
+//The directory containing a CMake configuration file for unique_identifier_msgs.
+unique_identifier_msgs_DIR:PATH=/opt/ros/humble/share/unique_identifier_msgs/cmake
 
 //Path to a program.
 xmllint_BIN:FILEPATH=/usr/bin/xmllint

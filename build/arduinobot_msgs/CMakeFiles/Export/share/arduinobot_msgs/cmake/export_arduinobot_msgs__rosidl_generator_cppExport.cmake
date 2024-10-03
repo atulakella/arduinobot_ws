@@ -55,7 +55,7 @@ add_library(arduinobot_msgs::arduinobot_msgs__rosidl_generator_cpp INTERFACE IMP
 
 set_target_properties(arduinobot_msgs::arduinobot_msgs__rosidl_generator_cpp PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include/arduinobot_msgs"
-  INTERFACE_LINK_LIBRARIES "rosidl_runtime_cpp::rosidl_runtime_cpp"
+  INTERFACE_LINK_LIBRARIES "action_msgs::action_msgs__rosidl_generator_cpp;builtin_interfaces::builtin_interfaces__rosidl_generator_cpp;unique_identifier_msgs::unique_identifier_msgs__rosidl_generator_cpp;rosidl_runtime_cpp::rosidl_runtime_cpp"
 )
 
 if(CMAKE_VERSION VERSION_LESS 3.0.0)

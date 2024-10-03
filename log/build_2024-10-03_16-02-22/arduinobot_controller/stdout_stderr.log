@@ -1,0 +1,44 @@
+[35m[1mConsolidate compiler generated dependencies of target slider_control[0m
+[  0%] Built target ament_cmake_python_copy_arduinobot_controller
+[100%] Built target slider_control
+running egg_info
+writing arduinobot_controller.egg-info/PKG-INFO
+writing dependency_links to arduinobot_controller.egg-info/dependency_links.txt
+writing top-level names to arduinobot_controller.egg-info/top_level.txt
+reading manifest file 'arduinobot_controller.egg-info/SOURCES.txt'
+writing manifest file 'arduinobot_controller.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_arduinobot_controller_egg
+-- Install configuration: ""
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/pythonpath.sh
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/pythonpath.dsv
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller-0.0.0-py3.10.egg-info
+-- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller/slider_control.py
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller/__init__.py
+Listing '/home/atul/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller'...
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/lib/arduinobot_controller/slider_control
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch/controller.launch.py
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch/slider_controller.launch.py
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/config
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/config/arduinobot_controllers.yaml
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/lib/arduinobot_controller/slider_control.py
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/package_run_dependencies/arduinobot_controller
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/parent_prefix_path/arduinobot_controller
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/path.sh
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/path.dsv
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.bash
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.sh
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.zsh
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.dsv
+-- Installing: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.dsv
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/packages/arduinobot_controller
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig.cmake
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig-version.cmake
+-- Up-to-date: /home/atul/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.xml

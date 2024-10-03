@@ -21,6 +21,7 @@ if(BUILD_TESTING)
   "srv/AddTwoInts.srv"
   "srv/EulerToQuaternion.srv"
   "srv/QuaternionToEuler.srv"
+  "action/Fibonacci.action"
 )
   set(ament_cmake_copyright_FOUND TRUE)
   # the following line skips cpplint (only works in a git repo)

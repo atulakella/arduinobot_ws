@@ -9,6 +9,7 @@ setup.py
 ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt
 ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/zip-safe
 arduinobot_py_examples/__init__.py
+arduinobot_py_examples/simple_action_server.py
 arduinobot_py_examples/simple_parameter.py
 arduinobot_py_examples/simple_publisher.py
 arduinobot_py_examples/simple_subscriber.py
