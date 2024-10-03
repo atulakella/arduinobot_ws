@@ -1,4 +1,5 @@
 [console_scripts]
+simple_action_server = arduinobot_py_examples.simple_action_server:main
 simple_parameter = arduinobot_py_examples.simple_parameter:main
 simple_publisher = arduinobot_py_examples.simple_publisher:main
 simple_service_client = arduinobot_py_examples.simple_service_client:main
